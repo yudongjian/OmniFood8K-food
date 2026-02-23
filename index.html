@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OmniFood8K | CVPR 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fb;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+        header p {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        section {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #eef3ff;
+            padding: 20px;
+            border-left: 5px solid #2a5298;
+            margin: 30px 0;
+        }
+        .authors {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            color: #1e3c72;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <h2 style="color:white; font-size:35px; margin-top:40px; margin-bottom:20px;">
+     OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion
+</h2>
+
+<p style="font-size:20px; margin:25px 0 20px 0; line-height:1.6;">
+    Dongjian Yu<sup>1</sup>, &nbsp;&nbsp;&nbsp;&nbsp;
+    Weiqing Min<sup>2</sup>, &nbsp;&nbsp;&nbsp;&nbsp;
+    Xin Jin<sup>1</sup>, &nbsp;&nbsp;&nbsp;&nbsp;
+    Qian Jiang<sup>1</sup>, &nbsp;&nbsp;&nbsp;&nbsp;
+    Xing Lin<sup>1</sup>, &nbsp;&nbsp;&nbsp;&nbsp;
+    Shuqiang Jiang<sup>2</sup> &nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p style="font-size:16px; margin:0 0 30px 0; line-height:1.5;">
+    <sup>1</sup> Yunnan University &nbsp;&nbsp;&nbsp;&nbsp;
+    <sup>2</sup> Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences
+</p>
+
+<p style="margin-top:30px; font-size:24px; font-weight:bold; ">
+    Accepted to CVPR 2026 🎉
+</p>
+
+    <a href="#" class="btn">Paper</a>
+    <a href="#" class="btn">Code</a>
+    <a href="#" class="btn">Dataset</a>
+</header>
+
+
+
+
+<section>
+    <h2>Overview</h2>
+    <p>
+        Accurate estimation of food nutrition plays a vital role in promoting healthy dietary habits
+        and personalized diet management. However, most existing food datasets primarily focus on
+        Western cuisines and often rely on depth sensors, limiting their applicability in real-world scenarios.
+    </p>
+    <p>
+        To address these challenges, we introduce <strong>OmniFood8K</strong>, a large-scale multimodal dataset
+        containing 8,036 real-world food scenes with detailed nutritional annotations and multi-view images.
+        Our dataset significantly expands coverage of Chinese cuisine and supports practical RGB-only nutrition estimation.
+    </p>
+</section>
+<section>
+    <h2>Dataset Overview</h2>
+    <p>
+        Overview of the OmniFood8K dataset: data collection process and category distribution.
+    </p>
+
+    <div style="text-align:center; margin-top:30px;">
+        <img src="source/main.png"
+             alt="OmniFood8K Dataset Overview"
+             style="max-width:95%; border-radius:14px;
+                    box-shadow:0 15px 40px rgba(0,0,0,0.12);">
+    </div>
+
+</section>
+<section>
+    <div style="background-color:#fff3cd;
+                color:#856404;
+                padding:25px 40px;
+                border-radius:12px;
+                border:1px solid #ffeeba;
+                box-shadow:0 10px 25px rgba(0,0,0,0.08);
+                max-width:1000px;
+                text-align:center;">
+        <h2 style=" color:#856404;">📢 Dataset Coming Soon</h2>
+        <p style="font-size:18px;">
+            The <strong>OmniFood8K dataset</strong> will be publicly released shortly.
+            Stay tuned for download links and additional resources!
+        </p>
+    </div>
+</section>
+<section>
+    <h2>Dataset Highlights</h2>
+    <div class="highlight">
+        <ul>
+            <li>8,036 real food scenes with precise nutritional labels</li>
+            <li>Multi-view image capture for each scene</li>
+            <li>Comprehensive coverage of Chinese dishes</li>
+            <li>Supports RGB-only prediction for daily applications</li>
+        </ul>
+    </div>
+    <p>
+        Additionally, we construct <strong>NutritionSynth-115K</strong>, a large-scale synthetic dataset
+        introducing compositional variations while preserving accurate nutritional annotations,
+        enabling robust model training.
+    </p>
+</section>
+
+<section>
+    <h2>Method</h2>
+    <p>
+        We propose an end-to-end framework for predicting nutritional information from a single RGB image.
+    </p>
+    <ul>
+        <li><strong>Scale-Shift Residual Adapter (SSRA):</strong> Refines predicted depth maps to enforce global scale consistency and preserve local structural details.</li>
+        <li><strong>Frequency-Aligned Fusion Module (FAFM):</strong> Hierarchically aligns RGB and depth features in the frequency domain.</li>
+        <li><strong>Mask-based Prediction Head (MPH):</strong> Dynamically emphasizes key ingredient regions for improved prediction accuracy.</li>
+    </ul>
+    <p>
+        Extensive experiments across multiple datasets demonstrate that our method outperforms existing approaches,
+        providing a practical solution for daily dietary assessment.
+    </p>
+</section>
+<section>
+    <div style="background-color:#d0ebff; /* 浅蓝色背景，区分其他模块 */
+                color:#1e3c72; /* 深蓝文字 */
+                padding:30px 50px;
+                border-radius:12px;
+                border:1px solid #a3c9f1;
+                box-shadow:0 10px 25px rgba(0,0,0,0.08);
+                max-width:800px;
+                text-align:center;">
+        <h2 style="margin-top:0; color:#1e3c72;">📧 Contact Us</h2>
+        <p style="font-size:18px; margin:15px 0;">
+            For inquiries or collaboration opportunities, please contact:
+        </p>
+        <p style="font-size:18px; margin:10px 0; font-weight:bold;">
+            <a href="mailto:yudongjian@stu.ynu.edu.cn" style="color:#1e3c72; text-decoration:underline;">
+                yudongjian@stu.ynu.edu.cn
+            </a>
+        </p>
+    </div>
+</section>
+<footer>
+    © 2026 OmniFood8K Project | CVPR 2026
+</footer>
+
+</body>
+</html>
