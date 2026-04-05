@@ -52,7 +52,10 @@ Generate predicted depth maps.  Our project have a run.py for your reference.
 train_nutrition.py --b 8 --log ./logs/test3
 ```
 
-We have also saved the trained weights, but the files are relatively large. If needed, we can send them to you by email.
+```bash
+python test.py --ckpt ./saved/logs/test2/ckpt_best.pth
+```
+[Download link for the trained weights.]()
 
 ### Please feel free to contact me at yudongjian@stu.ynu.edu.cn if you have any questions.
 
