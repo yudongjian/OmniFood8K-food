@@ -45,7 +45,7 @@ After downloading, place the files in the `pth/` folder of the project (create t
 ## Prerequisites Step 2
 
 Generate predicted depth maps.
-[use Depth-Anything-V2](thhttps://github.com/DepthAnything/Depth-Anything-V2)
+[use Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2)
 
 
 
