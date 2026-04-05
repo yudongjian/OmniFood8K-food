@@ -45,13 +45,8 @@ After downloading, place the files in the `pth/` folder of the project (create t
 ## Prerequisites Step 2
 
 Generate predicted depth maps.
+[use Depth-Anything-V2](thhttps://github.com/DepthAnything/Depth-Anything-V2)
 
-- **training**:  
-  In `train3D-mm.py`, please configure the following paths:
-  - `clip_path`  (located at **line 81**).
-  - `pth_path` (for **Swin-T** and **ConvNeXt** pre-trained weights) (located at **line 94**).
-  - `checkpoint` (for **Point Transformer** ) (located at **line 131**).
-  In `model/three_D.py`, please set the path to the **DINO** pre-trained weights (located at **line 174**).
 
 
 
