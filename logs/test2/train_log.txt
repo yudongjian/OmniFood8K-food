@@ -1,0 +1,960 @@
+{'dataset': 'nutrition_rgb_pre_d', 'b': 8, 'epoch': 150, 'resume': None, 'log': './logs/test2', 'data_root': '/home/image1325_user/ssd_disk1/yudongjian_23/Data/nutrition5k_dataset/', 'seed': 42}
+Epoch: [0][100/345]	Loss: 2.72841 	calorieloss: 0.48243 	massloss: 0.43367 	fatloss: 0.61821 	carbloss: 0.62705 	proteinloss: 0.56705 	loss_align: 0.06428738683462143 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [0][200/345]	Loss: 2.34395 	calorieloss: 0.39254 	massloss: 0.35685 	fatloss: 0.55837 	carbloss: 0.53772 	proteinloss: 0.49848 	loss_align: 0.03797553852200508 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [0][300/345]	Loss: 2.11943 	calorieloss: 0.35445 	massloss: 0.31669 	fatloss: 0.50630 	carbloss: 0.48223 	proteinloss: 0.45976 	loss_align: 0.050177764147520065 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [0][345/345]	Loss: 2.04612 	calorieloss: 0.34303 	massloss: 0.30315 	fatloss: 0.49141 	carbloss: 0.46475 	proteinloss: 0.44378 	loss_align: 0.006671187933534384 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [0][64/64]	Loss: 1.64487 	calorieloss: 0.32503 	massloss: 0.23805 	fatloss: 0.35216 	carbloss: 0.38103 	proteinloss: 0.34860 	lr:0.0000100
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [1][100/345]	Loss: 1.44871 	calorieloss: 0.25018 	massloss: 0.17775 	fatloss: 0.37466 	carbloss: 0.32473 	proteinloss: 0.32139 	loss_align: 0.01493159867823124 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [1][200/345]	Loss: 1.41084 	calorieloss: 0.24144 	massloss: 0.17923 	fatloss: 0.36296 	carbloss: 0.31575 	proteinloss: 0.31147 	loss_align: 0.028246939182281494 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [1][300/345]	Loss: 1.37932 	calorieloss: 0.23608 	massloss: 0.18426 	fatloss: 0.34754 	carbloss: 0.30325 	proteinloss: 0.30819 	loss_align: 0.014232476241886616 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [1][345/345]	Loss: 1.36370 	calorieloss: 0.23223 	massloss: 0.18202 	fatloss: 0.34276 	carbloss: 0.30318 	proteinloss: 0.30352 	loss_align: 0.016994139179587364 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [1][64/64]	Loss: 1.57237 	calorieloss: 0.24388 	massloss: 0.23325 	fatloss: 0.39942 	carbloss: 0.32696 	proteinloss: 0.36886 	lr:0.0000100
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [2][100/345]	Loss: 1.14893 	calorieloss: 0.18635 	massloss: 0.14879 	fatloss: 0.29183 	carbloss: 0.25402 	proteinloss: 0.26794 	loss_align: 0.036733705550432205 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [2][200/345]	Loss: 1.14385 	calorieloss: 0.18961 	massloss: 0.14849 	fatloss: 0.28827 	carbloss: 0.26054 	proteinloss: 0.25693 	loss_align: 0.0294474009424448 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [2][300/345]	Loss: 1.14022 	calorieloss: 0.18902 	massloss: 0.14966 	fatloss: 0.29252 	carbloss: 0.25429 	proteinloss: 0.25474 	loss_align: 0.013231039047241211 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [2][345/345]	Loss: 1.13747 	calorieloss: 0.18945 	massloss: 0.15043 	fatloss: 0.28822 	carbloss: 0.25781 	proteinloss: 0.25157 	loss_align: 0.013179073110222816 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [2][64/64]	Loss: 1.46237 	calorieloss: 0.25099 	massloss: 0.22444 	fatloss: 0.29536 	carbloss: 0.39080 	proteinloss: 0.30079 	lr:0.0000100
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [3][100/345]	Loss: 1.01003 	calorieloss: 0.16073 	massloss: 0.14586 	fatloss: 0.25185 	carbloss: 0.24064 	proteinloss: 0.21097 	loss_align: 0.019626017659902573 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [3][200/345]	Loss: 1.03169 	calorieloss: 0.16948 	massloss: 0.14447 	fatloss: 0.26217 	carbloss: 0.23853 	proteinloss: 0.21704 	loss_align: 0.014413908123970032 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [3][300/345]	Loss: 1.03952 	calorieloss: 0.17081 	massloss: 0.14724 	fatloss: 0.27026 	carbloss: 0.23142 	proteinloss: 0.21978 	loss_align: 0.0074347155168652534 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [3][345/345]	Loss: 1.04204 	calorieloss: 0.17313 	massloss: 0.14677 	fatloss: 0.27075 	carbloss: 0.23114 	proteinloss: 0.22025 	loss_align: 0.003793204901739955 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [3][64/64]	Loss: 1.09927 	calorieloss: 0.17345 	massloss: 0.15061 	fatloss: 0.27699 	carbloss: 0.23708 	proteinloss: 0.26114 	lr:0.0000100
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [4][100/345]	Loss: 0.94587 	calorieloss: 0.16238 	massloss: 0.12605 	fatloss: 0.24333 	carbloss: 0.20602 	proteinloss: 0.20809 	loss_align: 0.005272392183542252 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [4][200/345]	Loss: 0.91610 	calorieloss: 0.15491 	massloss: 0.12174 	fatloss: 0.23882 	carbloss: 0.20319 	proteinloss: 0.19744 	loss_align: 0.006962548475712538 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [4][300/345]	Loss: 0.91793 	calorieloss: 0.15493 	massloss: 0.12449 	fatloss: 0.23984 	carbloss: 0.19870 	proteinloss: 0.19997 	loss_align: 0.010313297621905804 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [4][345/345]	Loss: 0.91771 	calorieloss: 0.15463 	massloss: 0.12422 	fatloss: 0.23899 	carbloss: 0.19982 	proteinloss: 0.20004 	loss_align: 0.008124321699142456 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [4][64/64]	Loss: 1.10418 	calorieloss: 0.18660 	massloss: 0.16294 	fatloss: 0.26808 	carbloss: 0.23126 	proteinloss: 0.25529 	lr:0.0000100
+
+Epoch: [5][100/345]	Loss: 0.90627 	calorieloss: 0.14963 	massloss: 0.12196 	fatloss: 0.24641 	carbloss: 0.19147 	proteinloss: 0.19680 	loss_align: 0.005644700489938259 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [5][200/345]	Loss: 0.88267 	calorieloss: 0.14910 	massloss: 0.11699 	fatloss: 0.23394 	carbloss: 0.19196 	proteinloss: 0.19067 	loss_align: 0.016924239695072174 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [5][300/345]	Loss: 0.88106 	calorieloss: 0.14657 	massloss: 0.11966 	fatloss: 0.23453 	carbloss: 0.19362 	proteinloss: 0.18669 	loss_align: 0.008797184564173222 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [5][345/345]	Loss: 0.87377 	calorieloss: 0.14597 	massloss: 0.11961 	fatloss: 0.23270 	carbloss: 0.19233 	proteinloss: 0.18316 	loss_align: 0.0014407363487407565 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [5][64/64]	Loss: 1.09446 	calorieloss: 0.18891 	massloss: 0.14681 	fatloss: 0.26924 	carbloss: 0.23984 	proteinloss: 0.24965 	lr:0.0000100
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [6][100/345]	Loss: 0.80028 	calorieloss: 0.14075 	massloss: 0.11614 	fatloss: 0.20853 	carbloss: 0.17261 	proteinloss: 0.16225 	loss_align: 0.019147561863064766 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [6][200/345]	Loss: 0.80237 	calorieloss: 0.13910 	massloss: 0.11306 	fatloss: 0.20956 	carbloss: 0.17626 	proteinloss: 0.16440 	loss_align: 0.0019969891291111708 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [6][300/345]	Loss: 0.79463 	calorieloss: 0.13612 	massloss: 0.11263 	fatloss: 0.20401 	carbloss: 0.17392 	proteinloss: 0.16795 	loss_align: 0.0074793933890759945 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [6][345/345]	Loss: 0.79048 	calorieloss: 0.13555 	massloss: 0.11194 	fatloss: 0.20458 	carbloss: 0.17231 	proteinloss: 0.16611 	loss_align: 0.001265321159735322 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [6][64/64]	Loss: 1.08642 	calorieloss: 0.17781 	massloss: 0.14289 	fatloss: 0.27049 	carbloss: 0.22316 	proteinloss: 0.27207 	lr:0.0000099
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [7][100/345]	Loss: 0.77053 	calorieloss: 0.13700 	massloss: 0.11131 	fatloss: 0.19393 	carbloss: 0.16224 	proteinloss: 0.16605 	loss_align: 0.004675658885389566 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [7][200/345]	Loss: 0.78416 	calorieloss: 0.13628 	massloss: 0.11816 	fatloss: 0.19899 	carbloss: 0.16202 	proteinloss: 0.16870 	loss_align: 0.02061660960316658 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [7][300/345]	Loss: 0.79622 	calorieloss: 0.14009 	massloss: 0.11767 	fatloss: 0.20288 	carbloss: 0.16554 	proteinloss: 0.17004 	loss_align: 0.0036751036532223225 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [7][345/345]	Loss: 0.78339 	calorieloss: 0.13665 	massloss: 0.11615 	fatloss: 0.20156 	carbloss: 0.16266 	proteinloss: 0.16637 	loss_align: 0.0012638869229704142 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [7][64/64]	Loss: 1.13998 	calorieloss: 0.20158 	massloss: 0.14288 	fatloss: 0.29234 	carbloss: 0.24690 	proteinloss: 0.25629 	lr:0.0000099
+
+Epoch: [8][100/345]	Loss: 0.69616 	calorieloss: 0.11439 	massloss: 0.09839 	fatloss: 0.19194 	carbloss: 0.14619 	proteinloss: 0.14525 	loss_align: 0.011566199362277985 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [8][200/345]	Loss: 0.70907 	calorieloss: 0.12454 	massloss: 0.09560 	fatloss: 0.19309 	carbloss: 0.15145 	proteinloss: 0.14438 	loss_align: 0.01679127663373947 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [8][300/345]	Loss: 0.72007 	calorieloss: 0.12415 	massloss: 0.10075 	fatloss: 0.18870 	carbloss: 0.15883 	proteinloss: 0.14762 	loss_align: 0.002420168835669756 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [8][345/345]	Loss: 0.71041 	calorieloss: 0.12288 	massloss: 0.09933 	fatloss: 0.18482 	carbloss: 0.15644 	proteinloss: 0.14694 	loss_align: 0.0005131468060426414 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [8][64/64]	Loss: 1.05229 	calorieloss: 0.19986 	massloss: 0.11941 	fatloss: 0.25754 	carbloss: 0.22921 	proteinloss: 0.24627 	lr:0.0000099
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [9][100/345]	Loss: 0.68470 	calorieloss: 0.11455 	massloss: 0.10269 	fatloss: 0.17474 	carbloss: 0.14372 	proteinloss: 0.14900 	loss_align: 0.001667922711931169 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [9][200/345]	Loss: 0.68849 	calorieloss: 0.11707 	massloss: 0.10148 	fatloss: 0.17256 	carbloss: 0.14872 	proteinloss: 0.14867 	loss_align: 0.01155062671750784 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [9][300/345]	Loss: 0.68022 	calorieloss: 0.11489 	massloss: 0.09875 	fatloss: 0.17657 	carbloss: 0.14494 	proteinloss: 0.14507 	loss_align: 0.0025476182345300913 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [9][345/345]	Loss: 0.68824 	calorieloss: 0.11484 	massloss: 0.09893 	fatloss: 0.17681 	carbloss: 0.14729 	proteinloss: 0.15038 	loss_align: 0.0019582759123295546 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [9][64/64]	Loss: 1.04428 	calorieloss: 0.17986 	massloss: 0.13325 	fatloss: 0.26099 	carbloss: 0.24097 	proteinloss: 0.22921 	lr:0.0000098
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [10][100/345]	Loss: 0.77174 	calorieloss: 0.13239 	massloss: 0.11587 	fatloss: 0.18971 	carbloss: 0.16483 	proteinloss: 0.16893 	loss_align: 0.0015625853557139635 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [10][200/345]	Loss: 0.72726 	calorieloss: 0.12471 	massloss: 0.10565 	fatloss: 0.18570 	carbloss: 0.15609 	proteinloss: 0.15511 	loss_align: 0.008438478223979473 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [10][300/345]	Loss: 0.70274 	calorieloss: 0.12146 	massloss: 0.10296 	fatloss: 0.18395 	carbloss: 0.14685 	proteinloss: 0.14752 	loss_align: 0.004633734934031963 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [10][345/345]	Loss: 0.69722 	calorieloss: 0.12011 	massloss: 0.10305 	fatloss: 0.18098 	carbloss: 0.14707 	proteinloss: 0.14600 	loss_align: 0.011297136545181274 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [10][64/64]	Loss: 0.98035 	calorieloss: 0.16285 	massloss: 0.14037 	fatloss: 0.23642 	carbloss: 0.22180 	proteinloss: 0.21890 	lr:0.0000098
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [11][100/345]	Loss: 0.64002 	calorieloss: 0.10551 	massloss: 0.09101 	fatloss: 0.17026 	carbloss: 0.13401 	proteinloss: 0.13922 	loss_align: 0.003944121301174164 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [11][200/345]	Loss: 0.62560 	calorieloss: 0.10427 	massloss: 0.08865 	fatloss: 0.16791 	carbloss: 0.13022 	proteinloss: 0.13456 	loss_align: 0.0030653609428554773 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [11][300/345]	Loss: 0.63341 	calorieloss: 0.10716 	massloss: 0.08967 	fatloss: 0.16901 	carbloss: 0.13522 	proteinloss: 0.13236 	loss_align: 0.005838526412844658 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [11][345/345]	Loss: 0.62829 	calorieloss: 0.10546 	massloss: 0.09125 	fatloss: 0.16681 	carbloss: 0.13379 	proteinloss: 0.13098 	loss_align: 0.001272363937459886 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [11][64/64]	Loss: 0.97821 	calorieloss: 0.15702 	massloss: 0.12701 	fatloss: 0.25339 	carbloss: 0.22032 	proteinloss: 0.22046 	lr:0.0000098
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [12][100/345]	Loss: 0.61103 	calorieloss: 0.10618 	massloss: 0.09242 	fatloss: 0.16341 	carbloss: 0.12178 	proteinloss: 0.12724 	loss_align: 0.001983788562938571 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [12][200/345]	Loss: 0.58372 	calorieloss: 0.09931 	massloss: 0.08917 	fatloss: 0.15289 	carbloss: 0.12043 	proteinloss: 0.12192 	loss_align: 0.0013509225100278854 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [12][300/345]	Loss: 0.57762 	calorieloss: 0.09682 	massloss: 0.08696 	fatloss: 0.15062 	carbloss: 0.12387 	proteinloss: 0.11935 	loss_align: 0.0032145832665264606 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [12][345/345]	Loss: 0.57733 	calorieloss: 0.09567 	massloss: 0.08696 	fatloss: 0.15060 	carbloss: 0.12543 	proteinloss: 0.11868 	loss_align: 0.002525248797610402 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [12][64/64]	Loss: 0.98567 	calorieloss: 0.16599 	massloss: 0.12760 	fatloss: 0.25250 	carbloss: 0.21796 	proteinloss: 0.22162 	lr:0.0000097
+
+Epoch: [13][100/345]	Loss: 0.56056 	calorieloss: 0.09712 	massloss: 0.08362 	fatloss: 0.14431 	carbloss: 0.11976 	proteinloss: 0.11574 	loss_align: 0.007323553320020437 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [13][200/345]	Loss: 0.54440 	calorieloss: 0.09346 	massloss: 0.08393 	fatloss: 0.14094 	carbloss: 0.11627 	proteinloss: 0.10980 	loss_align: 0.006054962519556284 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [13][300/345]	Loss: 0.55784 	calorieloss: 0.09619 	massloss: 0.08561 	fatloss: 0.14244 	carbloss: 0.12042 	proteinloss: 0.11318 	loss_align: 0.0026123460847884417 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [13][345/345]	Loss: 0.56139 	calorieloss: 0.09835 	massloss: 0.08527 	fatloss: 0.14276 	carbloss: 0.12189 	proteinloss: 0.11312 	loss_align: 0.006100760772824287 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [13][64/64]	Loss: 0.94158 	calorieloss: 0.15497 	massloss: 0.13288 	fatloss: 0.23383 	carbloss: 0.21227 	proteinloss: 0.20763 	lr:0.0000097
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [14][100/345]	Loss: 0.55572 	calorieloss: 0.09482 	massloss: 0.08456 	fatloss: 0.14814 	carbloss: 0.11566 	proteinloss: 0.11254 	loss_align: 0.0031484717037528753 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [14][200/345]	Loss: 0.54873 	calorieloss: 0.09526 	massloss: 0.08344 	fatloss: 0.14086 	carbloss: 0.12102 	proteinloss: 0.10815 	loss_align: 0.0033026498276740313 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [14][300/345]	Loss: 0.54015 	calorieloss: 0.09350 	massloss: 0.08095 	fatloss: 0.13814 	carbloss: 0.11707 	proteinloss: 0.11047 	loss_align: 0.0016527865082025528 	lr:0.00001-0.00001-0.00010-0.00010
+Epoch: [14][345/345]	Loss: 0.54258 	calorieloss: 0.09348 	massloss: 0.08051 	fatloss: 0.13855 	carbloss: 0.11853 	proteinloss: 0.11151 	loss_align: 0.013613338582217693 	lr:0.00001-0.00001-0.00010-0.00010
+Test Epoch: [14][64/64]	Loss: 0.98150 	calorieloss: 0.15610 	massloss: 0.11901 	fatloss: 0.25764 	carbloss: 0.22373 	proteinloss: 0.22502 	lr:0.0000096
+
+Epoch: [15][100/345]	Loss: 0.52264 	calorieloss: 0.09036 	massloss: 0.07767 	fatloss: 0.12692 	carbloss: 0.11870 	proteinloss: 0.10898 	loss_align: 0.0035427191760390997 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [15][200/345]	Loss: 0.51272 	calorieloss: 0.08811 	massloss: 0.07656 	fatloss: 0.12969 	carbloss: 0.11450 	proteinloss: 0.10385 	loss_align: 0.001333966269157827 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [15][300/345]	Loss: 0.51167 	calorieloss: 0.08838 	massloss: 0.07511 	fatloss: 0.13139 	carbloss: 0.11155 	proteinloss: 0.10523 	loss_align: 0.0036133714020252228 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [15][345/345]	Loss: 0.52056 	calorieloss: 0.09014 	massloss: 0.07519 	fatloss: 0.13579 	carbloss: 0.11250 	proteinloss: 0.10693 	loss_align: 0.0008449352462776005 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [15][64/64]	Loss: 0.97620 	calorieloss: 0.15657 	massloss: 0.12206 	fatloss: 0.23049 	carbloss: 0.21731 	proteinloss: 0.24978 	lr:0.0000096
+
+Epoch: [16][100/345]	Loss: 0.48038 	calorieloss: 0.08223 	massloss: 0.06851 	fatloss: 0.11732 	carbloss: 0.10518 	proteinloss: 0.10714 	loss_align: 0.0034558537881821394 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [16][200/345]	Loss: 0.47627 	calorieloss: 0.07837 	massloss: 0.07052 	fatloss: 0.11796 	carbloss: 0.10743 	proteinloss: 0.10200 	loss_align: 0.00720556452870369 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [16][300/345]	Loss: 0.48235 	calorieloss: 0.08066 	massloss: 0.07333 	fatloss: 0.12178 	carbloss: 0.10540 	proteinloss: 0.10118 	loss_align: 0.00943355169147253 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [16][345/345]	Loss: 0.49899 	calorieloss: 0.08458 	massloss: 0.07706 	fatloss: 0.12415 	carbloss: 0.10980 	proteinloss: 0.10340 	loss_align: 0.0006490839296020567 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [16][64/64]	Loss: 1.00154 	calorieloss: 0.16225 	massloss: 0.12006 	fatloss: 0.26348 	carbloss: 0.22444 	proteinloss: 0.23131 	lr:0.0000095
+
+Epoch: [17][100/345]	Loss: 0.49756 	calorieloss: 0.08286 	massloss: 0.07041 	fatloss: 0.13019 	carbloss: 0.10551 	proteinloss: 0.10859 	loss_align: 0.0022115104366093874 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [17][200/345]	Loss: 0.52887 	calorieloss: 0.09088 	massloss: 0.07744 	fatloss: 0.13378 	carbloss: 0.11719 	proteinloss: 0.10958 	loss_align: 0.002866544993594289 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [17][300/345]	Loss: 0.53319 	calorieloss: 0.09347 	massloss: 0.07665 	fatloss: 0.13417 	carbloss: 0.11841 	proteinloss: 0.11049 	loss_align: 0.001697865896858275 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [17][345/345]	Loss: 0.53867 	calorieloss: 0.09614 	massloss: 0.07752 	fatloss: 0.13563 	carbloss: 0.11917 	proteinloss: 0.11023 	loss_align: 0.00023652997333556414 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [17][64/64]	Loss: 1.02086 	calorieloss: 0.19303 	massloss: 0.13559 	fatloss: 0.24052 	carbloss: 0.21493 	proteinloss: 0.23678 	lr:0.0000094
+
+Epoch: [18][100/345]	Loss: 0.52099 	calorieloss: 0.09290 	massloss: 0.07699 	fatloss: 0.12918 	carbloss: 0.11131 	proteinloss: 0.11061 	loss_align: 0.006054740399122238 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [18][200/345]	Loss: 0.53120 	calorieloss: 0.09343 	massloss: 0.07884 	fatloss: 0.13700 	carbloss: 0.11084 	proteinloss: 0.11108 	loss_align: 0.003948873840272427 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [18][300/345]	Loss: 0.57487 	calorieloss: 0.10140 	massloss: 0.08236 	fatloss: 0.14736 	carbloss: 0.12614 	proteinloss: 0.11761 	loss_align: 0.01240503042936325 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [18][345/345]	Loss: 0.57208 	calorieloss: 0.10010 	massloss: 0.08070 	fatloss: 0.14873 	carbloss: 0.12483 	proteinloss: 0.11772 	loss_align: 0.0011021726531907916 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [18][64/64]	Loss: 1.05099 	calorieloss: 0.16694 	massloss: 0.12641 	fatloss: 0.28993 	carbloss: 0.22063 	proteinloss: 0.24708 	lr:0.0000094
+
+Epoch: [19][100/345]	Loss: 0.54466 	calorieloss: 0.08903 	massloss: 0.07374 	fatloss: 0.14827 	carbloss: 0.11208 	proteinloss: 0.12154 	loss_align: 0.008474007248878479 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [19][200/345]	Loss: 0.53508 	calorieloss: 0.08920 	massloss: 0.07423 	fatloss: 0.14042 	carbloss: 0.11353 	proteinloss: 0.11771 	loss_align: 0.015507343225181103 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [19][300/345]	Loss: 0.51660 	calorieloss: 0.08858 	massloss: 0.07318 	fatloss: 0.13669 	carbloss: 0.10736 	proteinloss: 0.11079 	loss_align: 0.0007443393697030842 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [19][345/345]	Loss: 0.50794 	calorieloss: 0.08712 	massloss: 0.07194 	fatloss: 0.13652 	carbloss: 0.10369 	proteinloss: 0.10868 	loss_align: 0.0007356472196988761 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [19][64/64]	Loss: 0.93153 	calorieloss: 0.15511 	massloss: 0.11263 	fatloss: 0.24587 	carbloss: 0.20174 	proteinloss: 0.21617 	lr:0.0000093
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [20][100/345]	Loss: 0.47121 	calorieloss: 0.08004 	massloss: 0.06958 	fatloss: 0.12445 	carbloss: 0.09931 	proteinloss: 0.09782 	loss_align: 0.0021597857121378183 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [20][200/345]	Loss: 0.46304 	calorieloss: 0.07851 	massloss: 0.06988 	fatloss: 0.11929 	carbloss: 0.09787 	proteinloss: 0.09749 	loss_align: 0.006369543261826038 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [20][300/345]	Loss: 0.46790 	calorieloss: 0.08003 	massloss: 0.07128 	fatloss: 0.11778 	carbloss: 0.10117 	proteinloss: 0.09765 	loss_align: 0.0006893927929922938 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [20][345/345]	Loss: 0.46671 	calorieloss: 0.07940 	massloss: 0.07029 	fatloss: 0.11951 	carbloss: 0.10068 	proteinloss: 0.09683 	loss_align: 0.0007980455993674695 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [20][64/64]	Loss: 0.93288 	calorieloss: 0.14914 	massloss: 0.12026 	fatloss: 0.24844 	carbloss: 0.21035 	proteinloss: 0.20470 	lr:0.0000092
+
+Epoch: [21][100/345]	Loss: 0.46254 	calorieloss: 0.08661 	massloss: 0.07010 	fatloss: 0.11353 	carbloss: 0.09273 	proteinloss: 0.09957 	loss_align: 0.0011545185698196292 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [21][200/345]	Loss: 0.45238 	calorieloss: 0.08076 	massloss: 0.06985 	fatloss: 0.11313 	carbloss: 0.09146 	proteinloss: 0.09718 	loss_align: 0.003444630652666092 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [21][300/345]	Loss: 0.46117 	calorieloss: 0.08047 	massloss: 0.06912 	fatloss: 0.11816 	carbloss: 0.09415 	proteinloss: 0.09927 	loss_align: 0.0037989250849932432 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [21][345/345]	Loss: 0.45960 	calorieloss: 0.08003 	massloss: 0.06894 	fatloss: 0.11823 	carbloss: 0.09417 	proteinloss: 0.09823 	loss_align: 0.0011773610021919012 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [21][64/64]	Loss: 0.97166 	calorieloss: 0.16695 	massloss: 0.12829 	fatloss: 0.25903 	carbloss: 0.21175 	proteinloss: 0.20564 	lr:0.0000092
+
+Epoch: [22][100/345]	Loss: 0.47552 	calorieloss: 0.07879 	massloss: 0.07902 	fatloss: 0.12021 	carbloss: 0.09506 	proteinloss: 0.10244 	loss_align: 0.013824976049363613 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [22][200/345]	Loss: 0.45034 	calorieloss: 0.07674 	massloss: 0.06996 	fatloss: 0.11557 	carbloss: 0.09125 	proteinloss: 0.09681 	loss_align: 0.006130421068519354 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [22][300/345]	Loss: 0.45236 	calorieloss: 0.07752 	massloss: 0.06938 	fatloss: 0.11639 	carbloss: 0.09164 	proteinloss: 0.09743 	loss_align: 0.001767844194546342 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [22][345/345]	Loss: 0.45269 	calorieloss: 0.07690 	massloss: 0.06908 	fatloss: 0.11567 	carbloss: 0.09251 	proteinloss: 0.09852 	loss_align: 0.0007716506952419877 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [22][64/64]	Loss: 0.96514 	calorieloss: 0.15555 	massloss: 0.12435 	fatloss: 0.23691 	carbloss: 0.21366 	proteinloss: 0.23467 	lr:0.0000091
+
+Epoch: [23][100/345]	Loss: 0.46678 	calorieloss: 0.08240 	massloss: 0.07598 	fatloss: 0.11114 	carbloss: 0.09736 	proteinloss: 0.09990 	loss_align: 0.009323077276349068 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [23][200/345]	Loss: 0.44118 	calorieloss: 0.07664 	massloss: 0.06760 	fatloss: 0.11320 	carbloss: 0.09083 	proteinloss: 0.09291 	loss_align: 0.0015606380766257644 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [23][300/345]	Loss: 0.43243 	calorieloss: 0.07374 	massloss: 0.06558 	fatloss: 0.11232 	carbloss: 0.08915 	proteinloss: 0.09165 	loss_align: 0.0010014924919232726 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [23][345/345]	Loss: 0.43547 	calorieloss: 0.07461 	massloss: 0.06535 	fatloss: 0.11367 	carbloss: 0.08926 	proteinloss: 0.09257 	loss_align: 0.00041276434785686433 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [23][64/64]	Loss: 0.95414 	calorieloss: 0.16199 	massloss: 0.12519 	fatloss: 0.23492 	carbloss: 0.21212 	proteinloss: 0.21993 	lr:0.0000090
+
+Epoch: [24][100/345]	Loss: 0.40802 	calorieloss: 0.07056 	massloss: 0.06140 	fatloss: 0.10564 	carbloss: 0.08182 	proteinloss: 0.08861 	loss_align: 0.0016352211823686957 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [24][200/345]	Loss: 0.43071 	calorieloss: 0.07509 	massloss: 0.06560 	fatloss: 0.10942 	carbloss: 0.08865 	proteinloss: 0.09196 	loss_align: 0.003988554701209068 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [24][300/345]	Loss: 0.42603 	calorieloss: 0.07340 	massloss: 0.06719 	fatloss: 0.10856 	carbloss: 0.08704 	proteinloss: 0.08983 	loss_align: 0.0028269030153751373 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [24][345/345]	Loss: 0.42110 	calorieloss: 0.07300 	massloss: 0.06678 	fatloss: 0.10658 	carbloss: 0.08574 	proteinloss: 0.08900 	loss_align: 0.001284712110646069 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [24][64/64]	Loss: 0.90589 	calorieloss: 0.15103 	massloss: 0.11258 	fatloss: 0.22281 	carbloss: 0.21611 	proteinloss: 0.20336 	lr:0.0000089
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [25][100/345]	Loss: 0.39184 	calorieloss: 0.06779 	massloss: 0.06075 	fatloss: 0.10479 	carbloss: 0.08281 	proteinloss: 0.07570 	loss_align: 0.007142213638871908 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [25][200/345]	Loss: 0.41947 	calorieloss: 0.07216 	massloss: 0.06303 	fatloss: 0.10949 	carbloss: 0.09012 	proteinloss: 0.08466 	loss_align: 0.002923758467659354 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [25][300/345]	Loss: 0.43092 	calorieloss: 0.07445 	massloss: 0.06635 	fatloss: 0.10901 	carbloss: 0.09412 	proteinloss: 0.08699 	loss_align: 0.006717098411172628 	lr:0.00001-0.00001-0.00009-0.00009
+Epoch: [25][345/345]	Loss: 0.43054 	calorieloss: 0.07477 	massloss: 0.06612 	fatloss: 0.10966 	carbloss: 0.09270 	proteinloss: 0.08728 	loss_align: 0.0015117904404178262 	lr:0.00001-0.00001-0.00009-0.00009
+Test Epoch: [25][64/64]	Loss: 0.89978 	calorieloss: 0.14297 	massloss: 0.11172 	fatloss: 0.23675 	carbloss: 0.20919 	proteinloss: 0.19916 	lr:0.0000088
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [26][100/345]	Loss: 0.40671 	calorieloss: 0.07081 	massloss: 0.05973 	fatloss: 0.10663 	carbloss: 0.09128 	proteinloss: 0.07828 	loss_align: 0.0014667207142338157 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [26][200/345]	Loss: 0.40699 	calorieloss: 0.07008 	massloss: 0.06381 	fatloss: 0.10081 	carbloss: 0.09269 	proteinloss: 0.07959 	loss_align: 0.0007344418554566801 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [26][300/345]	Loss: 0.40378 	calorieloss: 0.07017 	massloss: 0.06173 	fatloss: 0.10280 	carbloss: 0.09116 	proteinloss: 0.07792 	loss_align: 0.0018866623286157846 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [26][345/345]	Loss: 0.40488 	calorieloss: 0.07022 	massloss: 0.06164 	fatloss: 0.10297 	carbloss: 0.08941 	proteinloss: 0.08064 	loss_align: 0.0002346382971154526 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [26][64/64]	Loss: 0.88511 	calorieloss: 0.14559 	massloss: 0.11918 	fatloss: 0.21547 	carbloss: 0.20249 	proteinloss: 0.20237 	lr:0.0000087
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [27][100/345]	Loss: 0.41301 	calorieloss: 0.07418 	massloss: 0.06717 	fatloss: 0.10381 	carbloss: 0.08363 	proteinloss: 0.08422 	loss_align: 0.0009701653616502881 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [27][200/345]	Loss: 0.38930 	calorieloss: 0.06759 	massloss: 0.06166 	fatloss: 0.09666 	carbloss: 0.08227 	proteinloss: 0.08113 	loss_align: 0.00425319280475378 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [27][300/345]	Loss: 0.39441 	calorieloss: 0.06889 	massloss: 0.06135 	fatloss: 0.09816 	carbloss: 0.08451 	proteinloss: 0.08150 	loss_align: 0.0021685909014195204 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [27][345/345]	Loss: 0.39573 	calorieloss: 0.06897 	massloss: 0.06101 	fatloss: 0.09956 	carbloss: 0.08481 	proteinloss: 0.08137 	loss_align: 0.0015012642834335566 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [27][64/64]	Loss: 0.92251 	calorieloss: 0.15168 	massloss: 0.11613 	fatloss: 0.24578 	carbloss: 0.21158 	proteinloss: 0.19733 	lr:0.0000086
+
+Epoch: [28][100/345]	Loss: 0.40871 	calorieloss: 0.07439 	massloss: 0.06243 	fatloss: 0.10741 	carbloss: 0.08945 	proteinloss: 0.07503 	loss_align: 0.006295828614383936 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [28][200/345]	Loss: 0.39541 	calorieloss: 0.06905 	massloss: 0.06021 	fatloss: 0.10136 	carbloss: 0.08575 	proteinloss: 0.07903 	loss_align: 0.0024720800574868917 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [28][300/345]	Loss: 0.38988 	calorieloss: 0.06803 	massloss: 0.05916 	fatloss: 0.10088 	carbloss: 0.08231 	proteinloss: 0.07950 	loss_align: 0.004042827058583498 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [28][345/345]	Loss: 0.38782 	calorieloss: 0.06772 	massloss: 0.05842 	fatloss: 0.09992 	carbloss: 0.08197 	proteinloss: 0.07979 	loss_align: 0.0018681312212720513 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [28][64/64]	Loss: 0.91667 	calorieloss: 0.14946 	massloss: 0.12126 	fatloss: 0.21794 	carbloss: 0.20246 	proteinloss: 0.22555 	lr:0.0000085
+
+Epoch: [29][100/345]	Loss: 0.37735 	calorieloss: 0.06412 	massloss: 0.05744 	fatloss: 0.08757 	carbloss: 0.08149 	proteinloss: 0.08674 	loss_align: 0.0013815310085192323 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [29][200/345]	Loss: 0.37751 	calorieloss: 0.06228 	massloss: 0.05803 	fatloss: 0.09472 	carbloss: 0.07913 	proteinloss: 0.08334 	loss_align: 0.0016500644851475954 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [29][300/345]	Loss: 0.38709 	calorieloss: 0.06494 	massloss: 0.05998 	fatloss: 0.09729 	carbloss: 0.08141 	proteinloss: 0.08347 	loss_align: 0.004220775794237852 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [29][345/345]	Loss: 0.38526 	calorieloss: 0.06433 	massloss: 0.05959 	fatloss: 0.09843 	carbloss: 0.08081 	proteinloss: 0.08209 	loss_align: 0.00017338227189611644 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [29][64/64]	Loss: 0.89736 	calorieloss: 0.15305 	massloss: 0.11641 	fatloss: 0.21719 	carbloss: 0.20423 	proteinloss: 0.20649 	lr:0.0000085
+
+Epoch: [30][100/345]	Loss: 0.36526 	calorieloss: 0.06603 	massloss: 0.05768 	fatloss: 0.09533 	carbloss: 0.07105 	proteinloss: 0.07518 	loss_align: 0.0010661040432751179 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [30][200/345]	Loss: 0.35208 	calorieloss: 0.05940 	massloss: 0.05523 	fatloss: 0.09137 	carbloss: 0.07080 	proteinloss: 0.07528 	loss_align: 0.004292766563594341 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [30][300/345]	Loss: 0.37002 	calorieloss: 0.06335 	massloss: 0.05784 	fatloss: 0.09287 	carbloss: 0.07658 	proteinloss: 0.07939 	loss_align: 0.0017457070061936975 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [30][345/345]	Loss: 0.37548 	calorieloss: 0.06393 	massloss: 0.05867 	fatloss: 0.09419 	carbloss: 0.07952 	proteinloss: 0.07916 	loss_align: 0.0019876686856150627 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [30][64/64]	Loss: 0.92712 	calorieloss: 0.14689 	massloss: 0.11229 	fatloss: 0.23449 	carbloss: 0.23778 	proteinloss: 0.19566 	lr:0.0000084
+
+Epoch: [31][100/345]	Loss: 0.41626 	calorieloss: 0.07368 	massloss: 0.05875 	fatloss: 0.11079 	carbloss: 0.08928 	proteinloss: 0.08377 	loss_align: 0.002084923442453146 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [31][200/345]	Loss: 0.40753 	calorieloss: 0.07073 	massloss: 0.05999 	fatloss: 0.10462 	carbloss: 0.08550 	proteinloss: 0.08669 	loss_align: 0.0005141483852639794 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [31][300/345]	Loss: 0.39287 	calorieloss: 0.06625 	massloss: 0.05991 	fatloss: 0.10005 	carbloss: 0.08319 	proteinloss: 0.08348 	loss_align: 0.0008445366402156651 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [31][345/345]	Loss: 0.39409 	calorieloss: 0.06662 	massloss: 0.05953 	fatloss: 0.10189 	carbloss: 0.08292 	proteinloss: 0.08313 	loss_align: 0.0003223817911930382 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [31][64/64]	Loss: 0.91828 	calorieloss: 0.14388 	massloss: 0.12221 	fatloss: 0.22753 	carbloss: 0.21574 	proteinloss: 0.20892 	lr:0.0000082
+
+Epoch: [32][100/345]	Loss: 0.34622 	calorieloss: 0.05819 	massloss: 0.05110 	fatloss: 0.09164 	carbloss: 0.07416 	proteinloss: 0.07114 	loss_align: 0.000903078936971724 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [32][200/345]	Loss: 0.35886 	calorieloss: 0.05959 	massloss: 0.05322 	fatloss: 0.09261 	carbloss: 0.07608 	proteinloss: 0.07737 	loss_align: 0.0009602665086276829 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [32][300/345]	Loss: 0.37035 	calorieloss: 0.06316 	massloss: 0.05541 	fatloss: 0.09474 	carbloss: 0.07830 	proteinloss: 0.07874 	loss_align: 0.007183858193457127 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [32][345/345]	Loss: 0.37482 	calorieloss: 0.06436 	massloss: 0.05745 	fatloss: 0.09359 	carbloss: 0.07972 	proteinloss: 0.07970 	loss_align: 0.00028238663799129426 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [32][64/64]	Loss: 0.90215 	calorieloss: 0.14590 	massloss: 0.10917 	fatloss: 0.23366 	carbloss: 0.21178 	proteinloss: 0.20164 	lr:0.0000081
+
+Epoch: [33][100/345]	Loss: 0.38416 	calorieloss: 0.06403 	massloss: 0.05673 	fatloss: 0.09866 	carbloss: 0.08035 	proteinloss: 0.08439 	loss_align: 0.0022365872282534838 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [33][200/345]	Loss: 0.36260 	calorieloss: 0.06115 	massloss: 0.05556 	fatloss: 0.09268 	carbloss: 0.07462 	proteinloss: 0.07859 	loss_align: 0.001681450055912137 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [33][300/345]	Loss: 0.37000 	calorieloss: 0.06310 	massloss: 0.05751 	fatloss: 0.09171 	carbloss: 0.07875 	proteinloss: 0.07894 	loss_align: 0.0016848124796524644 	lr:0.00001-0.00001-0.00008-0.00008
+Epoch: [33][345/345]	Loss: 0.36840 	calorieloss: 0.06220 	massloss: 0.05813 	fatloss: 0.09100 	carbloss: 0.07835 	proteinloss: 0.07873 	loss_align: 0.004403749015182257 	lr:0.00001-0.00001-0.00008-0.00008
+Test Epoch: [33][64/64]	Loss: 0.88213 	calorieloss: 0.14213 	massloss: 0.11210 	fatloss: 0.22319 	carbloss: 0.20552 	proteinloss: 0.19918 	lr:0.0000080
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [34][100/345]	Loss: 0.35442 	calorieloss: 0.06109 	massloss: 0.05547 	fatloss: 0.08848 	carbloss: 0.06643 	proteinloss: 0.08294 	loss_align: 0.0015071927336975932 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [34][200/345]	Loss: 0.34597 	calorieloss: 0.05926 	massloss: 0.05428 	fatloss: 0.08653 	carbloss: 0.06807 	proteinloss: 0.07783 	loss_align: 0.0014024573611095548 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [34][300/345]	Loss: 0.36614 	calorieloss: 0.06478 	massloss: 0.05719 	fatloss: 0.08845 	carbloss: 0.07610 	proteinloss: 0.07963 	loss_align: 0.0023250740487128496 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [34][345/345]	Loss: 0.36584 	calorieloss: 0.06421 	massloss: 0.05653 	fatloss: 0.08803 	carbloss: 0.07679 	proteinloss: 0.08029 	loss_align: 0.0009537101723253727 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [34][64/64]	Loss: 0.88155 	calorieloss: 0.14686 	massloss: 0.11065 	fatloss: 0.22397 	carbloss: 0.20030 	proteinloss: 0.19976 	lr:0.0000079
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [35][100/345]	Loss: 0.35205 	calorieloss: 0.05776 	massloss: 0.05132 	fatloss: 0.09079 	carbloss: 0.07594 	proteinloss: 0.07623 	loss_align: 0.0006703733815811574 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [35][200/345]	Loss: 0.34471 	calorieloss: 0.05900 	massloss: 0.05218 	fatloss: 0.08757 	carbloss: 0.07170 	proteinloss: 0.07427 	loss_align: 0.0030785826966166496 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [35][300/345]	Loss: 0.35105 	calorieloss: 0.06109 	massloss: 0.05328 	fatloss: 0.08793 	carbloss: 0.07328 	proteinloss: 0.07548 	loss_align: 0.0026449584402143955 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [35][345/345]	Loss: 0.35588 	calorieloss: 0.06183 	massloss: 0.05345 	fatloss: 0.08973 	carbloss: 0.07405 	proteinloss: 0.07682 	loss_align: 0.0005535680684261024 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [35][64/64]	Loss: 0.91693 	calorieloss: 0.14544 	massloss: 0.11314 	fatloss: 0.25323 	carbloss: 0.20392 	proteinloss: 0.20120 	lr:0.0000078
+
+Epoch: [36][100/345]	Loss: 0.35460 	calorieloss: 0.05979 	massloss: 0.05953 	fatloss: 0.08705 	carbloss: 0.07512 	proteinloss: 0.07310 	loss_align: 0.001355789485387504 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [36][200/345]	Loss: 0.35261 	calorieloss: 0.06105 	massloss: 0.05664 	fatloss: 0.09157 	carbloss: 0.07218 	proteinloss: 0.07117 	loss_align: 0.002920212922617793 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [36][300/345]	Loss: 0.35561 	calorieloss: 0.06140 	massloss: 0.05583 	fatloss: 0.09235 	carbloss: 0.07347 	proteinloss: 0.07256 	loss_align: 0.000673056289087981 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [36][345/345]	Loss: 0.35822 	calorieloss: 0.06129 	massloss: 0.05607 	fatloss: 0.09335 	carbloss: 0.07407 	proteinloss: 0.07344 	loss_align: 0.0007809586240909994 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [36][64/64]	Loss: 0.88604 	calorieloss: 0.13876 	massloss: 0.11058 	fatloss: 0.22215 	carbloss: 0.21309 	proteinloss: 0.20145 	lr:0.0000077
+
+Epoch: [37][100/345]	Loss: 0.32562 	calorieloss: 0.05590 	massloss: 0.05025 	fatloss: 0.07959 	carbloss: 0.06754 	proteinloss: 0.07235 	loss_align: 0.0009522380423732102 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [37][200/345]	Loss: 0.32802 	calorieloss: 0.05802 	massloss: 0.04958 	fatloss: 0.08200 	carbloss: 0.06805 	proteinloss: 0.07037 	loss_align: 0.003047109814360738 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [37][300/345]	Loss: 0.33181 	calorieloss: 0.05729 	massloss: 0.04957 	fatloss: 0.08187 	carbloss: 0.07028 	proteinloss: 0.07280 	loss_align: 0.00271611544303596 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [37][345/345]	Loss: 0.34094 	calorieloss: 0.05890 	massloss: 0.05168 	fatloss: 0.08206 	carbloss: 0.07393 	proteinloss: 0.07437 	loss_align: 0.001013543806038797 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [37][64/64]	Loss: 0.90361 	calorieloss: 0.14824 	massloss: 0.11325 	fatloss: 0.21502 	carbloss: 0.22373 	proteinloss: 0.20338 	lr:0.0000076
+
+Epoch: [38][100/345]	Loss: 0.35223 	calorieloss: 0.05822 	massloss: 0.05495 	fatloss: 0.07797 	carbloss: 0.08177 	proteinloss: 0.07933 	loss_align: 0.0005817985511384904 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [38][200/345]	Loss: 0.34723 	calorieloss: 0.05785 	massloss: 0.05120 	fatloss: 0.08302 	carbloss: 0.07977 	proteinloss: 0.07539 	loss_align: 0.004071382340043783 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [38][300/345]	Loss: 0.34197 	calorieloss: 0.05803 	massloss: 0.05137 	fatloss: 0.08235 	carbloss: 0.07557 	proteinloss: 0.07466 	loss_align: 0.0009833193616941571 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [38][345/345]	Loss: 0.33768 	calorieloss: 0.05696 	massloss: 0.05139 	fatloss: 0.08144 	carbloss: 0.07435 	proteinloss: 0.07354 	loss_align: 0.010060165077447891 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [38][64/64]	Loss: 0.87031 	calorieloss: 0.13925 	massloss: 0.11724 	fatloss: 0.21945 	carbloss: 0.19435 	proteinloss: 0.20003 	lr:0.0000075
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [39][100/345]	Loss: 0.32435 	calorieloss: 0.05512 	massloss: 0.05274 	fatloss: 0.07562 	carbloss: 0.06822 	proteinloss: 0.07265 	loss_align: 0.0018799075623974204 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [39][200/345]	Loss: 0.33498 	calorieloss: 0.05756 	massloss: 0.05256 	fatloss: 0.08440 	carbloss: 0.06862 	proteinloss: 0.07184 	loss_align: 0.0010696895187720656 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [39][300/345]	Loss: 0.32838 	calorieloss: 0.05703 	massloss: 0.05231 	fatloss: 0.08136 	carbloss: 0.06832 	proteinloss: 0.06936 	loss_align: 0.0035989414900541306 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [39][345/345]	Loss: 0.32401 	calorieloss: 0.05684 	massloss: 0.05176 	fatloss: 0.08028 	carbloss: 0.06692 	proteinloss: 0.06821 	loss_align: 0.00025529731647111475 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [39][64/64]	Loss: 0.87890 	calorieloss: 0.14512 	massloss: 0.11253 	fatloss: 0.22198 	carbloss: 0.19583 	proteinloss: 0.20344 	lr:0.0000074
+
+Epoch: [40][100/345]	Loss: 0.32131 	calorieloss: 0.05602 	massloss: 0.04944 	fatloss: 0.07771 	carbloss: 0.06771 	proteinloss: 0.07043 	loss_align: 0.0017895784694701433 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [40][200/345]	Loss: 0.33356 	calorieloss: 0.05985 	massloss: 0.05238 	fatloss: 0.08104 	carbloss: 0.06772 	proteinloss: 0.07257 	loss_align: 0.0012325713178142905 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [40][300/345]	Loss: 0.33646 	calorieloss: 0.05897 	massloss: 0.05173 	fatloss: 0.08366 	carbloss: 0.06851 	proteinloss: 0.07359 	loss_align: 0.0006950900424271822 	lr:0.00001-0.00001-0.00007-0.00007
+Epoch: [40][345/345]	Loss: 0.34821 	calorieloss: 0.06207 	massloss: 0.05353 	fatloss: 0.08539 	carbloss: 0.07222 	proteinloss: 0.07500 	loss_align: 0.005758259911090136 	lr:0.00001-0.00001-0.00007-0.00007
+Test Epoch: [40][64/64]	Loss: 0.85672 	calorieloss: 0.13907 	massloss: 0.10949 	fatloss: 0.21452 	carbloss: 0.19888 	proteinloss: 0.19475 	lr:0.0000072
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [41][100/345]	Loss: 0.33898 	calorieloss: 0.05804 	massloss: 0.05697 	fatloss: 0.07976 	carbloss: 0.07386 	proteinloss: 0.07035 	loss_align: 0.0010766639607027173 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [41][200/345]	Loss: 0.33666 	calorieloss: 0.05809 	massloss: 0.05478 	fatloss: 0.08009 	carbloss: 0.07173 	proteinloss: 0.07198 	loss_align: 0.0009848023764789104 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [41][300/345]	Loss: 0.33423 	calorieloss: 0.05727 	massloss: 0.05336 	fatloss: 0.08122 	carbloss: 0.06986 	proteinloss: 0.07252 	loss_align: 0.0008002603426575661 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [41][345/345]	Loss: 0.33244 	calorieloss: 0.05692 	massloss: 0.05353 	fatloss: 0.08078 	carbloss: 0.07013 	proteinloss: 0.07107 	loss_align: 0.00027412554481998086 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [41][64/64]	Loss: 0.89632 	calorieloss: 0.14493 	massloss: 0.11514 	fatloss: 0.22357 	carbloss: 0.20995 	proteinloss: 0.20274 	lr:0.0000071
+
+Epoch: [42][100/345]	Loss: 0.34239 	calorieloss: 0.05670 	massloss: 0.04842 	fatloss: 0.08846 	carbloss: 0.07263 	proteinloss: 0.07619 	loss_align: 0.00120180519297719 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [42][200/345]	Loss: 0.32477 	calorieloss: 0.05588 	massloss: 0.04775 	fatloss: 0.08268 	carbloss: 0.06659 	proteinloss: 0.07187 	loss_align: 0.0012962203472852707 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [42][300/345]	Loss: 0.32257 	calorieloss: 0.05670 	massloss: 0.04910 	fatloss: 0.08010 	carbloss: 0.06684 	proteinloss: 0.06984 	loss_align: 0.001120769651606679 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [42][345/345]	Loss: 0.32015 	calorieloss: 0.05611 	massloss: 0.04875 	fatloss: 0.07850 	carbloss: 0.06655 	proteinloss: 0.07023 	loss_align: 0.00019859313033521175 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [42][64/64]	Loss: 0.89141 	calorieloss: 0.14348 	massloss: 0.10512 	fatloss: 0.23436 	carbloss: 0.19640 	proteinloss: 0.21206 	lr:0.0000070
+
+Epoch: [43][100/345]	Loss: 0.30225 	calorieloss: 0.05058 	massloss: 0.04912 	fatloss: 0.07476 	carbloss: 0.06465 	proteinloss: 0.06315 	loss_align: 0.0009361137636005878 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [43][200/345]	Loss: 0.29600 	calorieloss: 0.05034 	massloss: 0.04761 	fatloss: 0.07265 	carbloss: 0.06249 	proteinloss: 0.06290 	loss_align: 0.0007091056904755533 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [43][300/345]	Loss: 0.28918 	calorieloss: 0.04885 	massloss: 0.04587 	fatloss: 0.07116 	carbloss: 0.06051 	proteinloss: 0.06280 	loss_align: 0.006602393928915262 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [43][345/345]	Loss: 0.30054 	calorieloss: 0.05081 	massloss: 0.04823 	fatloss: 0.07235 	carbloss: 0.06438 	proteinloss: 0.06477 	loss_align: 0.0011353216832503676 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [43][64/64]	Loss: 0.86131 	calorieloss: 0.14344 	massloss: 0.10890 	fatloss: 0.21643 	carbloss: 0.20223 	proteinloss: 0.19031 	lr:0.0000069
+
+Epoch: [44][100/345]	Loss: 0.29042 	calorieloss: 0.05051 	massloss: 0.04316 	fatloss: 0.07612 	carbloss: 0.06173 	proteinloss: 0.05889 	loss_align: 0.0003305512072984129 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [44][200/345]	Loss: 0.28377 	calorieloss: 0.04823 	massloss: 0.04378 	fatloss: 0.07250 	carbloss: 0.05958 	proteinloss: 0.05967 	loss_align: 0.003855399787425995 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [44][300/345]	Loss: 0.29876 	calorieloss: 0.05112 	massloss: 0.04711 	fatloss: 0.07477 	carbloss: 0.06301 	proteinloss: 0.06274 	loss_align: 0.0008172800880856812 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [44][345/345]	Loss: 0.29667 	calorieloss: 0.05072 	massloss: 0.04651 	fatloss: 0.07425 	carbloss: 0.06247 	proteinloss: 0.06273 	loss_align: 0.00012057949061272666 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [44][64/64]	Loss: 0.86466 	calorieloss: 0.14022 	massloss: 0.10924 	fatloss: 0.21354 	carbloss: 0.20305 	proteinloss: 0.19860 	lr:0.0000067
+
+Epoch: [45][100/345]	Loss: 0.33323 	calorieloss: 0.06064 	massloss: 0.05175 	fatloss: 0.07938 	carbloss: 0.07172 	proteinloss: 0.06974 	loss_align: 0.0018891245126724243 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [45][200/345]	Loss: 0.31360 	calorieloss: 0.05578 	massloss: 0.04830 	fatloss: 0.07739 	carbloss: 0.06449 	proteinloss: 0.06764 	loss_align: 0.0013874935684725642 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [45][300/345]	Loss: 0.30976 	calorieloss: 0.05448 	massloss: 0.04863 	fatloss: 0.07546 	carbloss: 0.06491 	proteinloss: 0.06629 	loss_align: 0.0005505298613570631 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [45][345/345]	Loss: 0.30900 	calorieloss: 0.05413 	massloss: 0.04774 	fatloss: 0.07544 	carbloss: 0.06477 	proteinloss: 0.06692 	loss_align: 0.0016430215910077095 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [45][64/64]	Loss: 0.86359 	calorieloss: 0.14113 	massloss: 0.10983 	fatloss: 0.21819 	carbloss: 0.19876 	proteinloss: 0.19568 	lr:0.0000066
+
+Epoch: [46][100/345]	Loss: 0.27423 	calorieloss: 0.04641 	massloss: 0.04228 	fatloss: 0.06790 	carbloss: 0.05529 	proteinloss: 0.06235 	loss_align: 0.009743016213178635 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [46][200/345]	Loss: 0.28459 	calorieloss: 0.05086 	massloss: 0.04325 	fatloss: 0.07097 	carbloss: 0.05709 	proteinloss: 0.06243 	loss_align: 0.0007953275344334543 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [46][300/345]	Loss: 0.28851 	calorieloss: 0.05190 	massloss: 0.04604 	fatloss: 0.06957 	carbloss: 0.06001 	proteinloss: 0.06100 	loss_align: 0.0026420538779348135 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [46][345/345]	Loss: 0.29008 	calorieloss: 0.05221 	massloss: 0.04538 	fatloss: 0.07067 	carbloss: 0.06003 	proteinloss: 0.06180 	loss_align: 0.0018246781546622515 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [46][64/64]	Loss: 0.86380 	calorieloss: 0.14414 	massloss: 0.10764 	fatloss: 0.22317 	carbloss: 0.19727 	proteinloss: 0.19158 	lr:0.0000065
+
+Epoch: [47][100/345]	Loss: 0.28272 	calorieloss: 0.04837 	massloss: 0.04321 	fatloss: 0.07266 	carbloss: 0.05889 	proteinloss: 0.05959 	loss_align: 0.0011161698494106531 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [47][200/345]	Loss: 0.28950 	calorieloss: 0.04972 	massloss: 0.04532 	fatloss: 0.07132 	carbloss: 0.06100 	proteinloss: 0.06214 	loss_align: 0.00035872971056960523 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [47][300/345]	Loss: 0.29695 	calorieloss: 0.05050 	massloss: 0.04629 	fatloss: 0.07352 	carbloss: 0.06421 	proteinloss: 0.06242 	loss_align: 0.0008333081495948136 	lr:0.00001-0.00001-0.00006-0.00006
+Epoch: [47][345/345]	Loss: 0.29298 	calorieloss: 0.04964 	massloss: 0.04588 	fatloss: 0.07238 	carbloss: 0.06363 	proteinloss: 0.06144 	loss_align: 0.00016777914424892515 	lr:0.00001-0.00001-0.00006-0.00006
+Test Epoch: [47][64/64]	Loss: 0.87931 	calorieloss: 0.14436 	massloss: 0.11049 	fatloss: 0.22109 	carbloss: 0.20091 	proteinloss: 0.20245 	lr:0.0000064
+
+Epoch: [48][100/345]	Loss: 0.26806 	calorieloss: 0.04666 	massloss: 0.04349 	fatloss: 0.06699 	carbloss: 0.05934 	proteinloss: 0.05157 	loss_align: 0.0029807104729115963 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [48][200/345]	Loss: 0.26496 	calorieloss: 0.04506 	massloss: 0.04309 	fatloss: 0.06687 	carbloss: 0.05713 	proteinloss: 0.05280 	loss_align: 0.0009201624779962003 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [48][300/345]	Loss: 0.28208 	calorieloss: 0.04856 	massloss: 0.04557 	fatloss: 0.06901 	carbloss: 0.06239 	proteinloss: 0.05654 	loss_align: 0.0008264256757684052 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [48][345/345]	Loss: 0.28302 	calorieloss: 0.04850 	massloss: 0.04558 	fatloss: 0.06961 	carbloss: 0.06180 	proteinloss: 0.05753 	loss_align: 0.0003727241128217429 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [48][64/64]	Loss: 0.88671 	calorieloss: 0.14982 	massloss: 0.11211 	fatloss: 0.22033 	carbloss: 0.20240 	proteinloss: 0.20205 	lr:0.0000063
+
+Epoch: [49][100/345]	Loss: 0.26636 	calorieloss: 0.04670 	massloss: 0.04299 	fatloss: 0.06759 	carbloss: 0.05386 	proteinloss: 0.05522 	loss_align: 0.006427892949432135 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [49][200/345]	Loss: 0.26909 	calorieloss: 0.04651 	massloss: 0.04265 	fatloss: 0.06852 	carbloss: 0.05548 	proteinloss: 0.05593 	loss_align: 0.004916565027087927 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [49][300/345]	Loss: 0.27026 	calorieloss: 0.04646 	massloss: 0.04285 	fatloss: 0.06846 	carbloss: 0.05488 	proteinloss: 0.05762 	loss_align: 0.0004517257330007851 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [49][345/345]	Loss: 0.27579 	calorieloss: 0.04820 	massloss: 0.04440 	fatloss: 0.06818 	carbloss: 0.05656 	proteinloss: 0.05844 	loss_align: 0.00041432349826209247 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [49][64/64]	Loss: 0.86712 	calorieloss: 0.14148 	massloss: 0.10727 	fatloss: 0.22807 	carbloss: 0.19790 	proteinloss: 0.19240 	lr:0.0000061
+
+Epoch: [50][100/345]	Loss: 0.24894 	calorieloss: 0.04400 	massloss: 0.04074 	fatloss: 0.06086 	carbloss: 0.05100 	proteinloss: 0.05235 	loss_align: 0.0008223356562666595 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [50][200/345]	Loss: 0.25984 	calorieloss: 0.04683 	massloss: 0.04103 	fatloss: 0.06373 	carbloss: 0.05338 	proteinloss: 0.05487 	loss_align: 0.007805317174643278 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [50][300/345]	Loss: 0.27393 	calorieloss: 0.04882 	massloss: 0.04438 	fatloss: 0.06641 	carbloss: 0.05814 	proteinloss: 0.05618 	loss_align: 0.000747151963878423 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [50][345/345]	Loss: 0.27142 	calorieloss: 0.04811 	massloss: 0.04358 	fatloss: 0.06589 	carbloss: 0.05774 	proteinloss: 0.05610 	loss_align: 0.0002555462997406721 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [50][64/64]	Loss: 0.84693 	calorieloss: 0.13909 	massloss: 0.10885 	fatloss: 0.21764 	carbloss: 0.19061 	proteinloss: 0.19073 	lr:0.0000060
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [51][100/345]	Loss: 0.26572 	calorieloss: 0.04516 	massloss: 0.04167 	fatloss: 0.06788 	carbloss: 0.05455 	proteinloss: 0.05647 	loss_align: 0.0005035993526689708 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [51][200/345]	Loss: 0.27239 	calorieloss: 0.04765 	massloss: 0.04412 	fatloss: 0.06578 	carbloss: 0.05854 	proteinloss: 0.05631 	loss_align: 0.0004802355542778969 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [51][300/345]	Loss: 0.26831 	calorieloss: 0.04672 	massloss: 0.04346 	fatloss: 0.06579 	carbloss: 0.05745 	proteinloss: 0.05490 	loss_align: 0.00452403724193573 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [51][345/345]	Loss: 0.26620 	calorieloss: 0.04599 	massloss: 0.04307 	fatloss: 0.06570 	carbloss: 0.05652 	proteinloss: 0.05493 	loss_align: 0.0019319873536005616 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [51][64/64]	Loss: 0.86837 	calorieloss: 0.14503 	massloss: 0.11076 	fatloss: 0.21709 	carbloss: 0.20027 	proteinloss: 0.19522 	lr:0.0000059
+
+Epoch: [52][100/345]	Loss: 0.26045 	calorieloss: 0.04593 	massloss: 0.03923 	fatloss: 0.06908 	carbloss: 0.04955 	proteinloss: 0.05667 	loss_align: 0.0009182774811051786 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [52][200/345]	Loss: 0.26174 	calorieloss: 0.04567 	massloss: 0.04008 	fatloss: 0.06675 	carbloss: 0.05296 	proteinloss: 0.05628 	loss_align: 0.0018085150513797998 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [52][300/345]	Loss: 0.26231 	calorieloss: 0.04634 	massloss: 0.03982 	fatloss: 0.06581 	carbloss: 0.05391 	proteinloss: 0.05643 	loss_align: 0.0002573372039478272 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [52][345/345]	Loss: 0.26811 	calorieloss: 0.04778 	massloss: 0.04159 	fatloss: 0.06612 	carbloss: 0.05605 	proteinloss: 0.05657 	loss_align: 0.000875200901646167 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [52][64/64]	Loss: 0.87991 	calorieloss: 0.14682 	massloss: 0.10806 	fatloss: 0.21960 	carbloss: 0.19847 	proteinloss: 0.20696 	lr:0.0000057
+
+Epoch: [53][100/345]	Loss: 0.25066 	calorieloss: 0.04208 	massloss: 0.03911 	fatloss: 0.06096 	carbloss: 0.05627 	proteinloss: 0.05224 	loss_align: 0.0008687548688612878 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [53][200/345]	Loss: 0.24802 	calorieloss: 0.04202 	massloss: 0.03818 	fatloss: 0.06427 	carbloss: 0.05393 	proteinloss: 0.04962 	loss_align: 0.0003906024794559926 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [53][300/345]	Loss: 0.25747 	calorieloss: 0.04426 	massloss: 0.04061 	fatloss: 0.06342 	carbloss: 0.05708 	proteinloss: 0.05210 	loss_align: 0.01389690674841404 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [53][345/345]	Loss: 0.25819 	calorieloss: 0.04462 	massloss: 0.04101 	fatloss: 0.06261 	carbloss: 0.05733 	proteinloss: 0.05262 	loss_align: 0.00012334522034507245 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [53][64/64]	Loss: 0.88002 	calorieloss: 0.14079 	massloss: 0.10955 	fatloss: 0.22835 	carbloss: 0.20039 	proteinloss: 0.20095 	lr:0.0000056
+
+Epoch: [54][100/345]	Loss: 0.26118 	calorieloss: 0.04497 	massloss: 0.03875 	fatloss: 0.06828 	carbloss: 0.05688 	proteinloss: 0.05230 	loss_align: 0.004040509462356567 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [54][200/345]	Loss: 0.26190 	calorieloss: 0.04572 	massloss: 0.04094 	fatloss: 0.06325 	carbloss: 0.05878 	proteinloss: 0.05320 	loss_align: 0.0007691770442761481 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [54][300/345]	Loss: 0.25733 	calorieloss: 0.04434 	massloss: 0.04106 	fatloss: 0.06264 	carbloss: 0.05639 	proteinloss: 0.05291 	loss_align: 0.00044668751070275903 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [54][345/345]	Loss: 0.25614 	calorieloss: 0.04413 	massloss: 0.04029 	fatloss: 0.06257 	carbloss: 0.05576 	proteinloss: 0.05338 	loss_align: 0.000463410367956385 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [54][64/64]	Loss: 0.86101 	calorieloss: 0.14315 	massloss: 0.10821 	fatloss: 0.21566 	carbloss: 0.19590 	proteinloss: 0.19809 	lr:0.0000055
+
+Epoch: [55][100/345]	Loss: 0.23296 	calorieloss: 0.03873 	massloss: 0.03892 	fatloss: 0.05520 	carbloss: 0.05125 	proteinloss: 0.04887 	loss_align: 0.0003226867411285639 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [55][200/345]	Loss: 0.23845 	calorieloss: 0.03982 	massloss: 0.03953 	fatloss: 0.05493 	carbloss: 0.05235 	proteinloss: 0.05182 	loss_align: 0.0003626639663707465 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [55][300/345]	Loss: 0.23784 	calorieloss: 0.04029 	massloss: 0.03857 	fatloss: 0.05625 	carbloss: 0.05147 	proteinloss: 0.05125 	loss_align: 0.0004543069808278233 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [55][345/345]	Loss: 0.25021 	calorieloss: 0.04369 	massloss: 0.04092 	fatloss: 0.05765 	carbloss: 0.05519 	proteinloss: 0.05276 	loss_align: 0.00040685757994651794 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [55][64/64]	Loss: 0.84804 	calorieloss: 0.14245 	massloss: 0.10602 	fatloss: 0.21367 	carbloss: 0.19223 	proteinloss: 0.19366 	lr:0.0000054
+
+Epoch: [56][100/345]	Loss: 0.25930 	calorieloss: 0.04765 	massloss: 0.04297 	fatloss: 0.06010 	carbloss: 0.05787 	proteinloss: 0.05072 	loss_align: 0.0012415786040946841 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [56][200/345]	Loss: 0.24946 	calorieloss: 0.04460 	massloss: 0.04223 	fatloss: 0.05798 	carbloss: 0.05382 	proteinloss: 0.05084 	loss_align: 0.0011706905206665397 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [56][300/345]	Loss: 0.24545 	calorieloss: 0.04325 	massloss: 0.04088 	fatloss: 0.05810 	carbloss: 0.05312 	proteinloss: 0.05010 	loss_align: 0.00042556432890705764 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [56][345/345]	Loss: 0.24918 	calorieloss: 0.04431 	massloss: 0.04065 	fatloss: 0.06048 	carbloss: 0.05332 	proteinloss: 0.05043 	loss_align: 0.00019881637126673013 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [56][64/64]	Loss: 0.86926 	calorieloss: 0.14492 	massloss: 0.10528 	fatloss: 0.22132 	carbloss: 0.19606 	proteinloss: 0.20169 	lr:0.0000053
+
+Epoch: [57][100/345]	Loss: 0.25274 	calorieloss: 0.04644 	massloss: 0.04249 	fatloss: 0.05862 	carbloss: 0.05587 	proteinloss: 0.04932 	loss_align: 0.0006160043412819505 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [57][200/345]	Loss: 0.24352 	calorieloss: 0.04332 	massloss: 0.03919 	fatloss: 0.05779 	carbloss: 0.05263 	proteinloss: 0.05058 	loss_align: 0.0022243887651711702 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [57][300/345]	Loss: 0.23371 	calorieloss: 0.04056 	massloss: 0.03818 	fatloss: 0.05591 	carbloss: 0.05067 	proteinloss: 0.04839 	loss_align: 0.001425321213901043 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [57][345/345]	Loss: 0.23491 	calorieloss: 0.04084 	massloss: 0.03776 	fatloss: 0.05626 	carbloss: 0.05183 	proteinloss: 0.04823 	loss_align: 0.0013104014797136188 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [57][64/64]	Loss: 0.86440 	calorieloss: 0.14208 	massloss: 0.10400 	fatloss: 0.22128 	carbloss: 0.19457 	proteinloss: 0.20247 	lr:0.0000051
+
+Epoch: [58][100/345]	Loss: 0.24329 	calorieloss: 0.04278 	massloss: 0.04042 	fatloss: 0.05815 	carbloss: 0.04974 	proteinloss: 0.05221 	loss_align: 0.001986047253012657 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [58][200/345]	Loss: 0.23498 	calorieloss: 0.04182 	massloss: 0.03878 	fatloss: 0.05821 	carbloss: 0.04674 	proteinloss: 0.04942 	loss_align: 0.0022818236611783504 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [58][300/345]	Loss: 0.23841 	calorieloss: 0.04205 	massloss: 0.03870 	fatloss: 0.05946 	carbloss: 0.04799 	proteinloss: 0.05021 	loss_align: 0.0006821743445470929 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [58][345/345]	Loss: 0.24364 	calorieloss: 0.04316 	massloss: 0.03969 	fatloss: 0.05949 	carbloss: 0.05048 	proteinloss: 0.05082 	loss_align: 8.880397217581049e-05 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [58][64/64]	Loss: 0.84165 	calorieloss: 0.14020 	massloss: 0.10842 	fatloss: 0.21319 	carbloss: 0.18818 	proteinloss: 0.19166 	lr:0.0000050
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [59][100/345]	Loss: 0.28227 	calorieloss: 0.04921 	massloss: 0.04220 	fatloss: 0.06833 	carbloss: 0.06975 	proteinloss: 0.05278 	loss_align: 0.0011569318594411016 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [59][200/345]	Loss: 0.28240 	calorieloss: 0.04976 	massloss: 0.04440 	fatloss: 0.06555 	carbloss: 0.06798 	proteinloss: 0.05472 	loss_align: 0.0007137852371670306 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [59][300/345]	Loss: 0.26954 	calorieloss: 0.04781 	massloss: 0.04218 	fatloss: 0.06233 	carbloss: 0.06280 	proteinloss: 0.05442 	loss_align: 0.000768606027122587 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [59][345/345]	Loss: 0.26688 	calorieloss: 0.04733 	massloss: 0.04123 	fatloss: 0.06244 	carbloss: 0.06209 	proteinloss: 0.05379 	loss_align: 0.0007540512015111744 	lr:0.00000-0.00000-0.00004-0.00004
+Test Epoch: [59][64/64]	Loss: 0.84994 	calorieloss: 0.14198 	massloss: 0.10490 	fatloss: 0.21160 	carbloss: 0.19300 	proteinloss: 0.19845 	lr:0.0000049
+
+Epoch: [60][100/345]	Loss: 0.21642 	calorieloss: 0.03733 	massloss: 0.03275 	fatloss: 0.05500 	carbloss: 0.04681 	proteinloss: 0.04454 	loss_align: 0.0008440686506219208 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [60][200/345]	Loss: 0.23619 	calorieloss: 0.04166 	massloss: 0.03770 	fatloss: 0.05746 	carbloss: 0.05143 	proteinloss: 0.04794 	loss_align: 0.0005716396262869239 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [60][300/345]	Loss: 0.23565 	calorieloss: 0.04198 	massloss: 0.03695 	fatloss: 0.05853 	carbloss: 0.05051 	proteinloss: 0.04768 	loss_align: 0.0004544417024590075 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [60][345/345]	Loss: 0.23489 	calorieloss: 0.04160 	massloss: 0.03700 	fatloss: 0.05755 	carbloss: 0.05119 	proteinloss: 0.04754 	loss_align: 7.226438174257055e-05 	lr:0.00000-0.00000-0.00004-0.00004
+Test Epoch: [60][64/64]	Loss: 0.85670 	calorieloss: 0.14048 	massloss: 0.10706 	fatloss: 0.21780 	carbloss: 0.19642 	proteinloss: 0.19492 	lr:0.0000048
+
+Epoch: [61][100/345]	Loss: 0.21453 	calorieloss: 0.03966 	massloss: 0.03426 	fatloss: 0.05080 	carbloss: 0.04461 	proteinloss: 0.04520 	loss_align: 0.0022580509539693594 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [61][200/345]	Loss: 0.21680 	calorieloss: 0.03998 	massloss: 0.03456 	fatloss: 0.05263 	carbloss: 0.04506 	proteinloss: 0.04457 	loss_align: 0.0015028866473585367 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [61][300/345]	Loss: 0.22349 	calorieloss: 0.04091 	massloss: 0.03624 	fatloss: 0.05285 	carbloss: 0.04863 	proteinloss: 0.04486 	loss_align: 0.0005799838691018522 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [61][345/345]	Loss: 0.22171 	calorieloss: 0.04009 	massloss: 0.03548 	fatloss: 0.05240 	carbloss: 0.04816 	proteinloss: 0.04558 	loss_align: 0.00011408740101614967 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [61][64/64]	Loss: 0.85507 	calorieloss: 0.13913 	massloss: 0.10729 	fatloss: 0.21273 	carbloss: 0.19392 	proteinloss: 0.20201 	lr:0.0000046
+
+Epoch: [62][100/345]	Loss: 0.22910 	calorieloss: 0.04207 	massloss: 0.04028 	fatloss: 0.04759 	carbloss: 0.05384 	proteinloss: 0.04531 	loss_align: 0.0007168244919739664 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [62][200/345]	Loss: 0.22014 	calorieloss: 0.03872 	massloss: 0.03766 	fatloss: 0.04919 	carbloss: 0.04955 	proteinloss: 0.04502 	loss_align: 0.003081438597291708 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [62][300/345]	Loss: 0.21864 	calorieloss: 0.03769 	massloss: 0.03697 	fatloss: 0.05153 	carbloss: 0.04714 	proteinloss: 0.04531 	loss_align: 0.002445076359435916 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [62][345/345]	Loss: 0.22045 	calorieloss: 0.03785 	massloss: 0.03662 	fatloss: 0.05227 	carbloss: 0.04769 	proteinloss: 0.04602 	loss_align: 0.0002450766914989799 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [62][64/64]	Loss: 0.84143 	calorieloss: 0.13764 	massloss: 0.10740 	fatloss: 0.21135 	carbloss: 0.19219 	proteinloss: 0.19285 	lr:0.0000045
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [63][100/345]	Loss: 0.21025 	calorieloss: 0.03655 	massloss: 0.03388 	fatloss: 0.05300 	carbloss: 0.04340 	proteinloss: 0.04342 	loss_align: 0.001754422322846949 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [63][200/345]	Loss: 0.21072 	calorieloss: 0.03730 	massloss: 0.03334 	fatloss: 0.05310 	carbloss: 0.04381 	proteinloss: 0.04317 	loss_align: 0.00037713340134359896 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [63][300/345]	Loss: 0.21277 	calorieloss: 0.03738 	massloss: 0.03345 	fatloss: 0.05428 	carbloss: 0.04398 	proteinloss: 0.04368 	loss_align: 0.0007996013737283647 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [63][345/345]	Loss: 0.22054 	calorieloss: 0.03978 	massloss: 0.03555 	fatloss: 0.05386 	carbloss: 0.04657 	proteinloss: 0.04479 	loss_align: 0.0005694442661479115 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [63][64/64]	Loss: 0.84753 	calorieloss: 0.14332 	massloss: 0.10348 	fatloss: 0.21767 	carbloss: 0.19119 	proteinloss: 0.19185 	lr:0.0000044
+
+Epoch: [64][100/345]	Loss: 0.24434 	calorieloss: 0.04381 	massloss: 0.03541 	fatloss: 0.05797 	carbloss: 0.05618 	proteinloss: 0.05096 	loss_align: 0.0005616976413875818 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [64][200/345]	Loss: 0.22692 	calorieloss: 0.04036 	massloss: 0.03314 	fatloss: 0.05568 	carbloss: 0.05142 	proteinloss: 0.04631 	loss_align: 0.0039839791133999825 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [64][300/345]	Loss: 0.24005 	calorieloss: 0.04394 	massloss: 0.03635 	fatloss: 0.05688 	carbloss: 0.05272 	proteinloss: 0.05016 	loss_align: 0.0015882685547694564 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [64][345/345]	Loss: 0.23837 	calorieloss: 0.04360 	massloss: 0.03676 	fatloss: 0.05682 	carbloss: 0.05134 	proteinloss: 0.04985 	loss_align: 0.00046532577835023403 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [64][64/64]	Loss: 0.85972 	calorieloss: 0.14512 	massloss: 0.10219 	fatloss: 0.22065 	carbloss: 0.19353 	proteinloss: 0.19823 	lr:0.0000043
+
+Epoch: [65][100/345]	Loss: 0.21959 	calorieloss: 0.03826 	massloss: 0.03664 	fatloss: 0.05263 	carbloss: 0.04125 	proteinloss: 0.05080 	loss_align: 0.0002595475234556943 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [65][200/345]	Loss: 0.22770 	calorieloss: 0.03926 	massloss: 0.03870 	fatloss: 0.05393 	carbloss: 0.04700 	proteinloss: 0.04881 	loss_align: 0.0012801338452845812 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [65][300/345]	Loss: 0.22536 	calorieloss: 0.03930 	massloss: 0.03694 	fatloss: 0.05393 	carbloss: 0.04718 	proteinloss: 0.04801 	loss_align: 0.00250675855204463 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [65][345/345]	Loss: 0.22322 	calorieloss: 0.03880 	massloss: 0.03636 	fatloss: 0.05375 	carbloss: 0.04656 	proteinloss: 0.04776 	loss_align: 0.005987926386296749 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [65][64/64]	Loss: 0.84386 	calorieloss: 0.14308 	massloss: 0.10432 	fatloss: 0.21767 	carbloss: 0.18815 	proteinloss: 0.19064 	lr:0.0000042
+
+Epoch: [66][100/345]	Loss: 0.21099 	calorieloss: 0.03754 	massloss: 0.03748 	fatloss: 0.04589 	carbloss: 0.04759 	proteinloss: 0.04248 	loss_align: 0.014811687171459198 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [66][200/345]	Loss: 0.20575 	calorieloss: 0.03634 	massloss: 0.03421 	fatloss: 0.04849 	carbloss: 0.04526 	proteinloss: 0.04144 	loss_align: 0.00031975406454876065 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [66][300/345]	Loss: 0.20350 	calorieloss: 0.03528 	massloss: 0.03437 	fatloss: 0.04829 	carbloss: 0.04398 	proteinloss: 0.04159 	loss_align: 0.0009824272710829973 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [66][345/345]	Loss: 0.20298 	calorieloss: 0.03528 	massloss: 0.03456 	fatloss: 0.04782 	carbloss: 0.04330 	proteinloss: 0.04201 	loss_align: 0.00028718760586343706 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [66][64/64]	Loss: 0.84562 	calorieloss: 0.14193 	massloss: 0.10742 	fatloss: 0.21361 	carbloss: 0.19359 	proteinloss: 0.18908 	lr:0.0000041
+
+Epoch: [67][100/345]	Loss: 0.20381 	calorieloss: 0.03447 	massloss: 0.03443 	fatloss: 0.04986 	carbloss: 0.04277 	proteinloss: 0.04228 	loss_align: 0.0010541746160015464 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [67][200/345]	Loss: 0.19615 	calorieloss: 0.03339 	massloss: 0.03219 	fatloss: 0.04883 	carbloss: 0.04039 	proteinloss: 0.04135 	loss_align: 0.0005637777503579855 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [67][300/345]	Loss: 0.19892 	calorieloss: 0.03434 	massloss: 0.03177 	fatloss: 0.04902 	carbloss: 0.04171 	proteinloss: 0.04208 	loss_align: 0.0009642397053539753 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [67][345/345]	Loss: 0.20513 	calorieloss: 0.03618 	massloss: 0.03380 	fatloss: 0.04843 	carbloss: 0.04386 	proteinloss: 0.04286 	loss_align: 0.0004784358316101134 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [67][64/64]	Loss: 0.85042 	calorieloss: 0.14266 	massloss: 0.10503 	fatloss: 0.21385 	carbloss: 0.19473 	proteinloss: 0.19414 	lr:0.0000040
+
+Epoch: [68][100/345]	Loss: 0.19628 	calorieloss: 0.03376 	massloss: 0.03119 	fatloss: 0.05005 	carbloss: 0.04021 	proteinloss: 0.04108 	loss_align: 0.00044985051499679685 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [68][200/345]	Loss: 0.20862 	calorieloss: 0.03743 	massloss: 0.03522 	fatloss: 0.04914 	carbloss: 0.04535 	proteinloss: 0.04149 	loss_align: 0.0006833096267655492 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [68][300/345]	Loss: 0.20115 	calorieloss: 0.03573 	massloss: 0.03393 	fatloss: 0.04779 	carbloss: 0.04286 	proteinloss: 0.04084 	loss_align: 0.0012525530764833093 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [68][345/345]	Loss: 0.19942 	calorieloss: 0.03520 	massloss: 0.03376 	fatloss: 0.04790 	carbloss: 0.04204 	proteinloss: 0.04052 	loss_align: 0.0001282030571019277 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [68][64/64]	Loss: 0.84936 	calorieloss: 0.14077 	massloss: 0.10487 	fatloss: 0.21918 	carbloss: 0.19293 	proteinloss: 0.19160 	lr:0.0000039
+
+Epoch: [69][100/345]	Loss: 0.21197 	calorieloss: 0.03824 	massloss: 0.03595 	fatloss: 0.04518 	carbloss: 0.04710 	proteinloss: 0.04550 	loss_align: 0.00020084173593204468 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [69][200/345]	Loss: 0.20127 	calorieloss: 0.03519 	massloss: 0.03347 	fatloss: 0.04576 	carbloss: 0.04547 	proteinloss: 0.04139 	loss_align: 0.001550237531773746 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [69][300/345]	Loss: 0.20452 	calorieloss: 0.03649 	massloss: 0.03325 	fatloss: 0.04777 	carbloss: 0.04451 	proteinloss: 0.04249 	loss_align: 0.00041685052565298975 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [69][345/345]	Loss: 0.20666 	calorieloss: 0.03640 	massloss: 0.03308 	fatloss: 0.04846 	carbloss: 0.04467 	proteinloss: 0.04403 	loss_align: 0.0003681201196741313 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [69][64/64]	Loss: 0.85598 	calorieloss: 0.14295 	massloss: 0.10755 	fatloss: 0.21949 	carbloss: 0.19559 	proteinloss: 0.19042 	lr:0.0000038
+
+Epoch: [70][100/345]	Loss: 0.19144 	calorieloss: 0.03336 	massloss: 0.03006 	fatloss: 0.04834 	carbloss: 0.04061 	proteinloss: 0.03907 	loss_align: 0.00023083922860678285 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [70][200/345]	Loss: 0.18794 	calorieloss: 0.03213 	massloss: 0.02996 	fatloss: 0.04655 	carbloss: 0.03909 	proteinloss: 0.04021 	loss_align: 0.003670672420412302 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [70][300/345]	Loss: 0.19625 	calorieloss: 0.03509 	massloss: 0.03167 	fatloss: 0.04762 	carbloss: 0.04137 	proteinloss: 0.04049 	loss_align: 0.0006539290188811719 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [70][345/345]	Loss: 0.19554 	calorieloss: 0.03507 	massloss: 0.03156 	fatloss: 0.04736 	carbloss: 0.04091 	proteinloss: 0.04064 	loss_align: 0.0015079779550433159 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [70][64/64]	Loss: 0.84609 	calorieloss: 0.14050 	massloss: 0.10899 	fatloss: 0.21784 	carbloss: 0.18938 	proteinloss: 0.18938 	lr:0.0000036
+
+Epoch: [71][100/345]	Loss: 0.19518 	calorieloss: 0.03461 	massloss: 0.02958 	fatloss: 0.04911 	carbloss: 0.04138 	proteinloss: 0.04051 	loss_align: 0.00048339489148929715 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [71][200/345]	Loss: 0.19387 	calorieloss: 0.03335 	massloss: 0.02997 	fatloss: 0.04876 	carbloss: 0.04099 	proteinloss: 0.04080 	loss_align: 0.003348200349137187 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [71][300/345]	Loss: 0.19992 	calorieloss: 0.03548 	massloss: 0.03245 	fatloss: 0.04756 	carbloss: 0.04265 	proteinloss: 0.04178 	loss_align: 0.0004826844378840178 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [71][345/345]	Loss: 0.19804 	calorieloss: 0.03517 	massloss: 0.03212 	fatloss: 0.04737 	carbloss: 0.04175 	proteinloss: 0.04163 	loss_align: 0.000332052557496354 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [71][64/64]	Loss: 0.83919 	calorieloss: 0.14005 	massloss: 0.10448 	fatloss: 0.21611 	carbloss: 0.19104 	proteinloss: 0.18750 	lr:0.0000035
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [72][100/345]	Loss: 0.18577 	calorieloss: 0.03309 	massloss: 0.03184 	fatloss: 0.04503 	carbloss: 0.03829 	proteinloss: 0.03752 	loss_align: 0.0018286064732819796 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [72][200/345]	Loss: 0.19937 	calorieloss: 0.03609 	massloss: 0.03467 	fatloss: 0.04469 	carbloss: 0.04315 	proteinloss: 0.04077 	loss_align: 0.0030213145073503256 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [72][300/345]	Loss: 0.19502 	calorieloss: 0.03516 	massloss: 0.03303 	fatloss: 0.04460 	carbloss: 0.04137 	proteinloss: 0.04085 	loss_align: 0.0016103301895782351 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [72][345/345]	Loss: 0.19531 	calorieloss: 0.03518 	massloss: 0.03259 	fatloss: 0.04547 	carbloss: 0.04166 	proteinloss: 0.04040 	loss_align: 0.0002801581867970526 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [72][64/64]	Loss: 0.84587 	calorieloss: 0.14418 	massloss: 0.10683 	fatloss: 0.21387 	carbloss: 0.19380 	proteinloss: 0.18719 	lr:0.0000035
+
+Epoch: [73][100/345]	Loss: 0.18813 	calorieloss: 0.03257 	massloss: 0.03041 	fatloss: 0.04646 	carbloss: 0.03878 	proteinloss: 0.03991 	loss_align: 0.0006231738952919841 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [73][200/345]	Loss: 0.18844 	calorieloss: 0.03271 	massloss: 0.02986 	fatloss: 0.04752 	carbloss: 0.03882 	proteinloss: 0.03953 	loss_align: 0.0011502245906740427 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [73][300/345]	Loss: 0.19432 	calorieloss: 0.03464 	massloss: 0.03220 	fatloss: 0.04642 	carbloss: 0.04069 	proteinloss: 0.04037 	loss_align: 0.0003651724837254733 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [73][345/345]	Loss: 0.19276 	calorieloss: 0.03475 	massloss: 0.03187 	fatloss: 0.04605 	carbloss: 0.04019 	proteinloss: 0.03990 	loss_align: 4.969254950992763e-05 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [73][64/64]	Loss: 0.83481 	calorieloss: 0.13892 	massloss: 0.10507 	fatloss: 0.20845 	carbloss: 0.19450 	proteinloss: 0.18788 	lr:0.0000034
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [74][100/345]	Loss: 0.17991 	calorieloss: 0.03327 	massloss: 0.02774 	fatloss: 0.04715 	carbloss: 0.03634 	proteinloss: 0.03540 	loss_align: 0.0007012541755102575 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [74][200/345]	Loss: 0.17957 	calorieloss: 0.03336 	massloss: 0.02971 	fatloss: 0.04436 	carbloss: 0.03587 	proteinloss: 0.03627 	loss_align: 0.0005775192403234541 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [74][300/345]	Loss: 0.18396 	calorieloss: 0.03461 	massloss: 0.03089 	fatloss: 0.04327 	carbloss: 0.03824 	proteinloss: 0.03695 	loss_align: 0.0007802076288498938 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [74][345/345]	Loss: 0.18269 	calorieloss: 0.03420 	massloss: 0.03052 	fatloss: 0.04316 	carbloss: 0.03786 	proteinloss: 0.03695 	loss_align: 0.0001283314632019028 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [74][64/64]	Loss: 0.84594 	calorieloss: 0.13979 	massloss: 0.10583 	fatloss: 0.21148 	carbloss: 0.19696 	proteinloss: 0.19188 	lr:0.0000033
+
+Epoch: [75][100/345]	Loss: 0.18437 	calorieloss: 0.03478 	massloss: 0.02931 	fatloss: 0.04508 	carbloss: 0.03769 	proteinloss: 0.03751 	loss_align: 0.001178540987893939 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [75][200/345]	Loss: 0.18630 	calorieloss: 0.03550 	massloss: 0.03044 	fatloss: 0.04190 	carbloss: 0.03973 	proteinloss: 0.03873 	loss_align: 0.0003395582898519933 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [75][300/345]	Loss: 0.18266 	calorieloss: 0.03365 	massloss: 0.03020 	fatloss: 0.04253 	carbloss: 0.03849 	proteinloss: 0.03779 	loss_align: 0.002723214216530323 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [75][345/345]	Loss: 0.18133 	calorieloss: 0.03322 	massloss: 0.02970 	fatloss: 0.04254 	carbloss: 0.03862 	proteinloss: 0.03725 	loss_align: 0.002695181407034397 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [75][64/64]	Loss: 0.83351 	calorieloss: 0.13737 	massloss: 0.10469 	fatloss: 0.21240 	carbloss: 0.18997 	proteinloss: 0.18907 	lr:0.0000032
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [76][100/345]	Loss: 0.16654 	calorieloss: 0.02965 	massloss: 0.02623 	fatloss: 0.04148 	carbloss: 0.03338 	proteinloss: 0.03581 	loss_align: 0.002310210606083274 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [76][200/345]	Loss: 0.18001 	calorieloss: 0.03223 	massloss: 0.03016 	fatloss: 0.04230 	carbloss: 0.03743 	proteinloss: 0.03789 	loss_align: 0.0003978850436396897 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [76][300/345]	Loss: 0.18007 	calorieloss: 0.03204 	massloss: 0.02945 	fatloss: 0.04301 	carbloss: 0.03812 	proteinloss: 0.03746 	loss_align: 0.009096289053559303 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [76][345/345]	Loss: 0.17815 	calorieloss: 0.03126 	massloss: 0.02940 	fatloss: 0.04290 	carbloss: 0.03770 	proteinloss: 0.03689 	loss_align: 9.408329788129777e-05 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [76][64/64]	Loss: 0.82449 	calorieloss: 0.13641 	massloss: 0.10410 	fatloss: 0.20749 	carbloss: 0.19202 	proteinloss: 0.18446 	lr:0.0000031
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [77][100/345]	Loss: 0.20030 	calorieloss: 0.03758 	massloss: 0.03471 	fatloss: 0.04521 	carbloss: 0.04526 	proteinloss: 0.03754 	loss_align: 0.0009494654950685799 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [77][200/345]	Loss: 0.18882 	calorieloss: 0.03401 	massloss: 0.03235 	fatloss: 0.04520 	carbloss: 0.04085 	proteinloss: 0.03641 	loss_align: 0.00042322828085161746 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [77][300/345]	Loss: 0.18457 	calorieloss: 0.03254 	massloss: 0.03130 	fatloss: 0.04509 	carbloss: 0.03862 	proteinloss: 0.03702 	loss_align: 0.0005261669284664094 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [77][345/345]	Loss: 0.18537 	calorieloss: 0.03293 	massloss: 0.03086 	fatloss: 0.04590 	carbloss: 0.03889 	proteinloss: 0.03679 	loss_align: 0.0003939720045309514 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [77][64/64]	Loss: 0.84791 	calorieloss: 0.13950 	massloss: 0.10477 	fatloss: 0.21947 	carbloss: 0.19571 	proteinloss: 0.18847 	lr:0.0000030
+
+Epoch: [78][100/345]	Loss: 0.17353 	calorieloss: 0.03087 	massloss: 0.02703 	fatloss: 0.04481 	carbloss: 0.03789 	proteinloss: 0.03292 	loss_align: 0.0004713377566076815 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [78][200/345]	Loss: 0.17283 	calorieloss: 0.03004 	massloss: 0.02674 	fatloss: 0.04353 	carbloss: 0.03652 	proteinloss: 0.03601 	loss_align: 0.002244082046672702 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [78][300/345]	Loss: 0.17689 	calorieloss: 0.03130 	massloss: 0.02863 	fatloss: 0.04204 	carbloss: 0.03837 	proteinloss: 0.03654 	loss_align: 0.001134937978349626 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [78][345/345]	Loss: 0.17605 	calorieloss: 0.03122 	massloss: 0.02850 	fatloss: 0.04238 	carbloss: 0.03758 	proteinloss: 0.03637 	loss_align: 0.0013517223997041583 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [78][64/64]	Loss: 0.84703 	calorieloss: 0.14057 	massloss: 0.10708 	fatloss: 0.21333 	carbloss: 0.19593 	proteinloss: 0.19012 	lr:0.0000029
+
+Epoch: [79][100/345]	Loss: 0.16717 	calorieloss: 0.02772 	massloss: 0.02546 	fatloss: 0.04259 	carbloss: 0.03603 	proteinloss: 0.03536 	loss_align: 0.0013364653568714857 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [79][200/345]	Loss: 0.17578 	calorieloss: 0.03088 	massloss: 0.02978 	fatloss: 0.04030 	carbloss: 0.03795 	proteinloss: 0.03687 	loss_align: 0.0044364919885993 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [79][300/345]	Loss: 0.17016 	calorieloss: 0.02982 	massloss: 0.02889 	fatloss: 0.03999 	carbloss: 0.03584 	proteinloss: 0.03563 	loss_align: 0.0013587004505097866 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [79][345/345]	Loss: 0.17106 	calorieloss: 0.03010 	massloss: 0.02896 	fatloss: 0.04074 	carbloss: 0.03586 	proteinloss: 0.03540 	loss_align: 0.00020608138584066182 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [79][64/64]	Loss: 0.83737 	calorieloss: 0.13824 	massloss: 0.10503 	fatloss: 0.21180 	carbloss: 0.19172 	proteinloss: 0.19059 	lr:0.0000028
+
+Epoch: [80][100/345]	Loss: 0.15915 	calorieloss: 0.02794 	massloss: 0.02631 	fatloss: 0.04050 	carbloss: 0.03182 	proteinloss: 0.03258 	loss_align: 0.005559330806136131 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [80][200/345]	Loss: 0.17035 	calorieloss: 0.03090 	massloss: 0.02917 	fatloss: 0.04027 	carbloss: 0.03634 	proteinloss: 0.03367 	loss_align: 0.0007546238484792411 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [80][300/345]	Loss: 0.17195 	calorieloss: 0.03128 	massloss: 0.02829 	fatloss: 0.04154 	carbloss: 0.03630 	proteinloss: 0.03454 	loss_align: 0.0003319939714856446 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [80][345/345]	Loss: 0.16941 	calorieloss: 0.03078 	massloss: 0.02785 	fatloss: 0.04092 	carbloss: 0.03551 	proteinloss: 0.03435 	loss_align: 0.0006102455081418157 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [80][64/64]	Loss: 0.83446 	calorieloss: 0.13910 	massloss: 0.10380 	fatloss: 0.21182 	carbloss: 0.19386 	proteinloss: 0.18588 	lr:0.0000028
+
+Epoch: [81][100/345]	Loss: 0.15751 	calorieloss: 0.02783 	massloss: 0.02651 	fatloss: 0.03855 	carbloss: 0.02998 	proteinloss: 0.03464 	loss_align: 0.0010516901966184378 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [81][200/345]	Loss: 0.17053 	calorieloss: 0.03139 	massloss: 0.02998 	fatloss: 0.03943 	carbloss: 0.03447 	proteinloss: 0.03527 	loss_align: 0.000892703712452203 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [81][300/345]	Loss: 0.17212 	calorieloss: 0.03111 	massloss: 0.02884 	fatloss: 0.04124 	carbloss: 0.03527 	proteinloss: 0.03565 	loss_align: 0.00024330975429620594 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [81][345/345]	Loss: 0.17061 	calorieloss: 0.03087 	massloss: 0.02857 	fatloss: 0.04123 	carbloss: 0.03480 	proteinloss: 0.03515 	loss_align: 0.00013291074719745666 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [81][64/64]	Loss: 0.84623 	calorieloss: 0.14266 	massloss: 0.10504 	fatloss: 0.21436 	carbloss: 0.19507 	proteinloss: 0.18911 	lr:0.0000027
+
+Epoch: [82][100/345]	Loss: 0.15451 	calorieloss: 0.02717 	massloss: 0.02571 	fatloss: 0.03778 	carbloss: 0.03003 	proteinloss: 0.03382 	loss_align: 0.0008161862497217953 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [82][200/345]	Loss: 0.16702 	calorieloss: 0.03028 	massloss: 0.02885 	fatloss: 0.03732 	carbloss: 0.03554 	proteinloss: 0.03503 	loss_align: 0.001185135799460113 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [82][300/345]	Loss: 0.16615 	calorieloss: 0.03007 	massloss: 0.02809 	fatloss: 0.03798 	carbloss: 0.03514 	proteinloss: 0.03487 	loss_align: 0.012143757194280624 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [82][345/345]	Loss: 0.16862 	calorieloss: 0.03093 	massloss: 0.02802 	fatloss: 0.03860 	carbloss: 0.03570 	proteinloss: 0.03537 	loss_align: 9.70303372014314e-05 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [82][64/64]	Loss: 0.83292 	calorieloss: 0.13712 	massloss: 0.10592 	fatloss: 0.21235 	carbloss: 0.19094 	proteinloss: 0.18658 	lr:0.0000026
+
+Epoch: [83][100/345]	Loss: 0.16261 	calorieloss: 0.02915 	massloss: 0.02633 	fatloss: 0.04133 	carbloss: 0.03352 	proteinloss: 0.03228 	loss_align: 0.0004908753908239305 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [83][200/345]	Loss: 0.17110 	calorieloss: 0.03148 	massloss: 0.02882 	fatloss: 0.04026 	carbloss: 0.03616 	proteinloss: 0.03440 	loss_align: 0.0003715510538313538 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [83][300/345]	Loss: 0.16535 	calorieloss: 0.02952 	massloss: 0.02770 	fatloss: 0.03961 	carbloss: 0.03480 	proteinloss: 0.03370 	loss_align: 0.0005038342205807567 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [83][345/345]	Loss: 0.16387 	calorieloss: 0.02924 	massloss: 0.02768 	fatloss: 0.03932 	carbloss: 0.03426 	proteinloss: 0.03339 	loss_align: 0.0006212862790562212 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [83][64/64]	Loss: 0.84124 	calorieloss: 0.13700 	massloss: 0.10623 	fatloss: 0.20965 	carbloss: 0.19658 	proteinloss: 0.19178 	lr:0.0000026
+
+Epoch: [84][100/345]	Loss: 0.14819 	calorieloss: 0.02642 	massloss: 0.02422 	fatloss: 0.03739 	carbloss: 0.02953 	proteinloss: 0.03063 	loss_align: 0.001240110257640481 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [84][200/345]	Loss: 0.15772 	calorieloss: 0.02828 	massloss: 0.02593 	fatloss: 0.04003 	carbloss: 0.03132 	proteinloss: 0.03215 	loss_align: 0.0008306393283419311 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [84][300/345]	Loss: 0.15513 	calorieloss: 0.02741 	massloss: 0.02580 	fatloss: 0.03844 	carbloss: 0.03144 	proteinloss: 0.03205 	loss_align: 0.005762921180576086 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [84][345/345]	Loss: 0.16145 	calorieloss: 0.02912 	massloss: 0.02741 	fatloss: 0.03836 	carbloss: 0.03364 	proteinloss: 0.03292 	loss_align: 0.00016457359015475959 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [84][64/64]	Loss: 0.83108 	calorieloss: 0.13923 	massloss: 0.10421 	fatloss: 0.21311 	carbloss: 0.18802 	proteinloss: 0.18650 	lr:0.0000025
+
+Epoch: [85][100/345]	Loss: 0.14514 	calorieloss: 0.02510 	massloss: 0.02462 	fatloss: 0.03555 	carbloss: 0.03021 	proteinloss: 0.02966 	loss_align: 0.0005147341289557517 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [85][200/345]	Loss: 0.15036 	calorieloss: 0.02628 	massloss: 0.02535 	fatloss: 0.03692 	carbloss: 0.03010 	proteinloss: 0.03172 	loss_align: 0.0003253624017816037 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [85][300/345]	Loss: 0.15841 	calorieloss: 0.02877 	massloss: 0.02707 	fatloss: 0.03653 	carbloss: 0.03276 	proteinloss: 0.03327 	loss_align: 0.0003944815543945879 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [85][345/345]	Loss: 0.15934 	calorieloss: 0.02913 	massloss: 0.02670 	fatloss: 0.03729 	carbloss: 0.03301 	proteinloss: 0.03320 	loss_align: 0.00022555100440513343 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [85][64/64]	Loss: 0.83724 	calorieloss: 0.14093 	massloss: 0.10635 	fatloss: 0.21219 	carbloss: 0.19282 	proteinloss: 0.18495 	lr:0.0000024
+
+Epoch: [86][100/345]	Loss: 0.16717 	calorieloss: 0.03219 	massloss: 0.02911 	fatloss: 0.03609 	carbloss: 0.03673 	proteinloss: 0.03306 	loss_align: 0.0002028686722042039 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [86][200/345]	Loss: 0.15850 	calorieloss: 0.02933 	massloss: 0.02799 	fatloss: 0.03597 	carbloss: 0.03329 	proteinloss: 0.03192 	loss_align: 0.0002865845453925431 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [86][300/345]	Loss: 0.15624 	calorieloss: 0.02830 	massloss: 0.02741 	fatloss: 0.03671 	carbloss: 0.03191 	proteinloss: 0.03190 	loss_align: 0.0008953834185376763 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [86][345/345]	Loss: 0.15882 	calorieloss: 0.02896 	massloss: 0.02717 	fatloss: 0.03778 	carbloss: 0.03261 	proteinloss: 0.03230 	loss_align: 8.828795398585498e-05 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [86][64/64]	Loss: 0.84128 	calorieloss: 0.14312 	massloss: 0.10360 	fatloss: 0.21167 	carbloss: 0.19272 	proteinloss: 0.19017 	lr:0.0000024
+
+Epoch: [87][100/345]	Loss: 0.15822 	calorieloss: 0.02939 	massloss: 0.02550 	fatloss: 0.03990 	carbloss: 0.03072 	proteinloss: 0.03271 	loss_align: 0.0003456916310824454 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [87][200/345]	Loss: 0.15353 	calorieloss: 0.02762 	massloss: 0.02523 	fatloss: 0.03842 	carbloss: 0.03027 	proteinloss: 0.03200 	loss_align: 0.0008250091341324151 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [87][300/345]	Loss: 0.16228 	calorieloss: 0.02969 	massloss: 0.02728 	fatloss: 0.03868 	carbloss: 0.03373 	proteinloss: 0.03292 	loss_align: 0.00025547650875523686 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [87][345/345]	Loss: 0.16061 	calorieloss: 0.02913 	massloss: 0.02717 	fatloss: 0.03867 	carbloss: 0.03314 	proteinloss: 0.03251 	loss_align: 0.0003151786222588271 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [87][64/64]	Loss: 0.85023 	calorieloss: 0.14005 	massloss: 0.10627 	fatloss: 0.21498 	carbloss: 0.19276 	proteinloss: 0.19616 	lr:0.0000023
+
+Epoch: [88][100/345]	Loss: 0.14651 	calorieloss: 0.02612 	massloss: 0.02391 	fatloss: 0.03692 	carbloss: 0.02900 	proteinloss: 0.03056 	loss_align: 0.0005983856972306967 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [88][200/345]	Loss: 0.14637 	calorieloss: 0.02635 	massloss: 0.02409 	fatloss: 0.03639 	carbloss: 0.02895 	proteinloss: 0.03058 	loss_align: 0.0006169726839289069 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [88][300/345]	Loss: 0.15498 	calorieloss: 0.02786 	massloss: 0.02489 	fatloss: 0.03857 	carbloss: 0.03171 	proteinloss: 0.03195 	loss_align: 0.0003634927561506629 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [88][345/345]	Loss: 0.16112 	calorieloss: 0.02963 	massloss: 0.02660 	fatloss: 0.03869 	carbloss: 0.03340 	proteinloss: 0.03281 	loss_align: 0.000646230939310044 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [88][64/64]	Loss: 0.83037 	calorieloss: 0.13796 	massloss: 0.10572 	fatloss: 0.21115 	carbloss: 0.19035 	proteinloss: 0.18519 	lr:0.0000023
+
+Epoch: [89][100/345]	Loss: 0.15710 	calorieloss: 0.02869 	massloss: 0.02396 	fatloss: 0.03819 	carbloss: 0.03345 	proteinloss: 0.03282 	loss_align: 0.0008025532588362694 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [89][200/345]	Loss: 0.15128 	calorieloss: 0.02717 	massloss: 0.02431 	fatloss: 0.03694 	carbloss: 0.03090 	proteinloss: 0.03196 	loss_align: 0.001087723532691598 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [89][300/345]	Loss: 0.15004 	calorieloss: 0.02688 	massloss: 0.02435 	fatloss: 0.03676 	carbloss: 0.03027 	proteinloss: 0.03178 	loss_align: 0.00022045464720577002 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [89][345/345]	Loss: 0.15557 	calorieloss: 0.02817 	massloss: 0.02614 	fatloss: 0.03669 	carbloss: 0.03254 	proteinloss: 0.03203 	loss_align: 0.00012546873767860234 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [89][64/64]	Loss: 0.84215 	calorieloss: 0.14308 	massloss: 0.10397 	fatloss: 0.21439 	carbloss: 0.19113 	proteinloss: 0.18957 	lr:0.0000022
+
+Epoch: [90][100/345]	Loss: 0.17693 	calorieloss: 0.03498 	massloss: 0.02976 	fatloss: 0.03648 	carbloss: 0.04249 	proteinloss: 0.03322 	loss_align: 0.0005870742606930435 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [90][200/345]	Loss: 0.16002 	calorieloss: 0.03026 	massloss: 0.02700 	fatloss: 0.03623 	carbloss: 0.03557 	proteinloss: 0.03096 	loss_align: 0.00039390247547999024 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [90][300/345]	Loss: 0.15679 	calorieloss: 0.02927 	massloss: 0.02591 	fatloss: 0.03690 	carbloss: 0.03390 	proteinloss: 0.03081 	loss_align: 0.00033935296232812107 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [90][345/345]	Loss: 0.15479 	calorieloss: 0.02879 	massloss: 0.02586 	fatloss: 0.03664 	carbloss: 0.03300 	proteinloss: 0.03049 	loss_align: 0.0009237656486220658 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [90][64/64]	Loss: 0.84116 	calorieloss: 0.14169 	massloss: 0.10385 	fatloss: 0.21019 	carbloss: 0.19294 	proteinloss: 0.19248 	lr:0.0000022
+
+Epoch: [91][100/345]	Loss: 0.17075 	calorieloss: 0.03321 	massloss: 0.03101 	fatloss: 0.03618 	carbloss: 0.03717 	proteinloss: 0.03318 	loss_align: 0.0013071130961179733 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [91][200/345]	Loss: 0.15765 	calorieloss: 0.02906 	massloss: 0.02772 	fatloss: 0.03621 	carbloss: 0.03354 	proteinloss: 0.03112 	loss_align: 0.0005725738010369241 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [91][300/345]	Loss: 0.15087 	calorieloss: 0.02757 	massloss: 0.02614 	fatloss: 0.03547 	carbloss: 0.03152 	proteinloss: 0.03017 	loss_align: 0.0004542928363662213 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [91][345/345]	Loss: 0.15168 	calorieloss: 0.02778 	massloss: 0.02567 	fatloss: 0.03623 	carbloss: 0.03163 	proteinloss: 0.03037 	loss_align: 0.0005542640574276447 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [91][64/64]	Loss: 0.83355 	calorieloss: 0.13951 	massloss: 0.10534 	fatloss: 0.20925 	carbloss: 0.19286 	proteinloss: 0.18661 	lr:0.0000022
+
+Epoch: [92][100/345]	Loss: 0.13519 	calorieloss: 0.02379 	massloss: 0.02310 	fatloss: 0.03387 	carbloss: 0.02688 	proteinloss: 0.02753 	loss_align: 0.0003679957881104201 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [92][200/345]	Loss: 0.15529 	calorieloss: 0.02830 	massloss: 0.02846 	fatloss: 0.03305 	carbloss: 0.03356 	proteinloss: 0.03191 	loss_align: 0.0006529471720568836 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [92][300/345]	Loss: 0.15400 	calorieloss: 0.02832 	massloss: 0.02669 	fatloss: 0.03499 	carbloss: 0.03262 	proteinloss: 0.03138 	loss_align: 0.00048309494741261005 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [92][345/345]	Loss: 0.15173 	calorieloss: 0.02762 	massloss: 0.02641 	fatloss: 0.03481 	carbloss: 0.03200 	proteinloss: 0.03089 	loss_align: 0.00017356823082081974 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [92][64/64]	Loss: 0.83592 	calorieloss: 0.13963 	massloss: 0.10469 	fatloss: 0.20987 	carbloss: 0.19313 	proteinloss: 0.18860 	lr:0.0000021
+
+Epoch: [93][100/345]	Loss: 0.13973 	calorieloss: 0.02532 	massloss: 0.02405 	fatloss: 0.03310 	carbloss: 0.02794 	proteinloss: 0.02932 	loss_align: 0.0002829077420756221 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [93][200/345]	Loss: 0.14040 	calorieloss: 0.02546 	massloss: 0.02304 	fatloss: 0.03332 	carbloss: 0.02817 	proteinloss: 0.03041 	loss_align: 0.0010145726846531034 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [93][300/345]	Loss: 0.14180 	calorieloss: 0.02571 	massloss: 0.02292 	fatloss: 0.03499 	carbloss: 0.02863 	proteinloss: 0.02955 	loss_align: 0.0011079820105805993 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [93][345/345]	Loss: 0.15081 	calorieloss: 0.02814 	massloss: 0.02510 	fatloss: 0.03562 	carbloss: 0.03110 	proteinloss: 0.03085 	loss_align: 9.415254316991195e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [93][64/64]	Loss: 0.83250 	calorieloss: 0.13926 	massloss: 0.10462 	fatloss: 0.21096 	carbloss: 0.19114 	proteinloss: 0.18651 	lr:0.0000021
+
+Epoch: [94][100/345]	Loss: 0.13700 	calorieloss: 0.02368 	massloss: 0.02413 	fatloss: 0.03357 	carbloss: 0.02764 	proteinloss: 0.02799 	loss_align: 0.002578537678346038 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [94][200/345]	Loss: 0.14040 	calorieloss: 0.02501 	massloss: 0.02410 	fatloss: 0.03469 	carbloss: 0.02800 	proteinloss: 0.02860 	loss_align: 0.0006055351113900542 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [94][300/345]	Loss: 0.15204 	calorieloss: 0.02789 	massloss: 0.02616 	fatloss: 0.03557 	carbloss: 0.03203 	proteinloss: 0.03039 	loss_align: 0.0033113774843513966 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [94][345/345]	Loss: 0.15070 	calorieloss: 0.02751 	massloss: 0.02561 	fatloss: 0.03575 	carbloss: 0.03149 	proteinloss: 0.03033 	loss_align: 7.990549056557938e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [94][64/64]	Loss: 0.83255 	calorieloss: 0.13973 	massloss: 0.10462 	fatloss: 0.20902 	carbloss: 0.18890 	proteinloss: 0.19028 	lr:0.0000021
+
+Epoch: [95][100/345]	Loss: 0.17019 	calorieloss: 0.03300 	massloss: 0.03106 	fatloss: 0.03574 	carbloss: 0.03649 	proteinloss: 0.03390 	loss_align: 0.00042135431431233883 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [95][200/345]	Loss: 0.15515 	calorieloss: 0.02911 	massloss: 0.02632 	fatloss: 0.03532 	carbloss: 0.03332 	proteinloss: 0.03108 	loss_align: 0.0007760809385217726 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [95][300/345]	Loss: 0.15288 	calorieloss: 0.02857 	massloss: 0.02521 	fatloss: 0.03614 	carbloss: 0.03233 	proteinloss: 0.03062 	loss_align: 0.0007943068630993366 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [95][345/345]	Loss: 0.15097 	calorieloss: 0.02806 	massloss: 0.02507 	fatloss: 0.03602 	carbloss: 0.03166 	proteinloss: 0.03017 	loss_align: 9.982475603464991e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [95][64/64]	Loss: 0.83173 	calorieloss: 0.13823 	massloss: 0.10510 	fatloss: 0.20764 	carbloss: 0.19046 	proteinloss: 0.19031 	lr:0.0000020
+
+Epoch: [96][100/345]	Loss: 0.13539 	calorieloss: 0.02515 	massloss: 0.02256 	fatloss: 0.03212 	carbloss: 0.02571 	proteinloss: 0.02985 	loss_align: 0.00048161065205931664 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [96][200/345]	Loss: 0.14331 	calorieloss: 0.02601 	massloss: 0.02355 	fatloss: 0.03470 	carbloss: 0.02829 	proteinloss: 0.03076 	loss_align: 0.001799296005629003 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [96][300/345]	Loss: 0.14943 	calorieloss: 0.02777 	massloss: 0.02551 	fatloss: 0.03500 	carbloss: 0.03021 	proteinloss: 0.03093 	loss_align: 0.0007947493577376008 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [96][345/345]	Loss: 0.14745 	calorieloss: 0.02733 	massloss: 0.02502 	fatloss: 0.03485 	carbloss: 0.02981 	proteinloss: 0.03044 	loss_align: 7.625883881701156e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [96][64/64]	Loss: 0.83531 	calorieloss: 0.13846 	massloss: 0.10430 	fatloss: 0.21129 	carbloss: 0.19124 	proteinloss: 0.19002 	lr:0.0000020
+
+Epoch: [97][100/345]	Loss: 0.16062 	calorieloss: 0.03009 	massloss: 0.02867 	fatloss: 0.03345 	carbloss: 0.03793 	proteinloss: 0.03048 	loss_align: 0.00368886673822999 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [97][200/345]	Loss: 0.14671 	calorieloss: 0.02676 	massloss: 0.02570 	fatloss: 0.03278 	carbloss: 0.03169 	proteinloss: 0.02977 	loss_align: 0.0005011586472392082 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [97][300/345]	Loss: 0.14628 	calorieloss: 0.02691 	massloss: 0.02468 	fatloss: 0.03474 	carbloss: 0.03089 	proteinloss: 0.02907 	loss_align: 0.00027443020371720195 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [97][345/345]	Loss: 0.14545 	calorieloss: 0.02654 	massloss: 0.02450 	fatloss: 0.03467 	carbloss: 0.03054 	proteinloss: 0.02919 	loss_align: 0.00013666572340298444 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [97][64/64]	Loss: 0.83038 	calorieloss: 0.13843 	massloss: 0.10339 	fatloss: 0.21000 	carbloss: 0.18996 	proteinloss: 0.18860 	lr:0.0000020
+
+Epoch: [98][100/345]	Loss: 0.17131 	calorieloss: 0.03350 	massloss: 0.02908 	fatloss: 0.03778 	carbloss: 0.03757 	proteinloss: 0.03337 	loss_align: 0.0007320425938814878 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [98][200/345]	Loss: 0.15422 	calorieloss: 0.02886 	massloss: 0.02643 	fatloss: 0.03483 	carbloss: 0.03267 	proteinloss: 0.03142 	loss_align: 0.002202272182330489 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [98][300/345]	Loss: 0.15316 	calorieloss: 0.02783 	massloss: 0.02589 	fatloss: 0.03579 	carbloss: 0.03192 	proteinloss: 0.03173 	loss_align: 0.0009956964058801532 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [98][345/345]	Loss: 0.15173 	calorieloss: 0.02773 	massloss: 0.02561 	fatloss: 0.03552 	carbloss: 0.03142 	proteinloss: 0.03145 	loss_align: 9.772887278813869e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [98][64/64]	Loss: 0.83244 	calorieloss: 0.13647 	massloss: 0.10484 	fatloss: 0.20892 	carbloss: 0.19173 	proteinloss: 0.19047 	lr:0.0000020
+
+Epoch: [99][100/345]	Loss: 0.17425 	calorieloss: 0.03381 	massloss: 0.03229 	fatloss: 0.03589 	carbloss: 0.03891 	proteinloss: 0.03335 	loss_align: 0.00017678709991741925 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [99][200/345]	Loss: 0.15067 	calorieloss: 0.02810 	massloss: 0.02727 	fatloss: 0.03340 	carbloss: 0.03177 	proteinloss: 0.03013 	loss_align: 0.0007645319565199316 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [99][300/345]	Loss: 0.14965 	calorieloss: 0.02813 	massloss: 0.02606 	fatloss: 0.03417 	carbloss: 0.03092 	proteinloss: 0.03038 	loss_align: 0.00018633271974977106 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [99][345/345]	Loss: 0.14772 	calorieloss: 0.02779 	massloss: 0.02562 	fatloss: 0.03423 	carbloss: 0.03001 	proteinloss: 0.03007 	loss_align: 9.85860824584961e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [99][64/64]	Loss: 0.84511 	calorieloss: 0.14176 	massloss: 0.10402 	fatloss: 0.21208 	carbloss: 0.19435 	proteinloss: 0.19290 	lr:0.0000020
+
+Epoch: [100][100/345]	Loss: 0.16590 	calorieloss: 0.03180 	massloss: 0.02825 	fatloss: 0.03540 	carbloss: 0.03509 	proteinloss: 0.03536 	loss_align: 0.0002577502455096692 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [100][200/345]	Loss: 0.15381 	calorieloss: 0.02896 	massloss: 0.02515 	fatloss: 0.03587 	carbloss: 0.03237 	proteinloss: 0.03145 	loss_align: 0.001090686651878059 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [100][300/345]	Loss: 0.14786 	calorieloss: 0.02703 	massloss: 0.02415 	fatloss: 0.03507 	carbloss: 0.03094 	proteinloss: 0.03067 	loss_align: 0.003157251048833132 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [100][345/345]	Loss: 0.14672 	calorieloss: 0.02659 	massloss: 0.02410 	fatloss: 0.03506 	carbloss: 0.03049 	proteinloss: 0.03048 	loss_align: 0.000357693963451311 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [100][64/64]	Loss: 0.82873 	calorieloss: 0.13784 	massloss: 0.10298 	fatloss: 0.20980 	carbloss: 0.19200 	proteinloss: 0.18611 	lr:0.0000020
+
+Epoch: [101][100/345]	Loss: 0.13116 	calorieloss: 0.02473 	massloss: 0.02139 	fatloss: 0.03048 	carbloss: 0.02442 	proteinloss: 0.03013 	loss_align: 0.0006727703148499131 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [101][200/345]	Loss: 0.15406 	calorieloss: 0.02991 	massloss: 0.02556 	fatloss: 0.03476 	carbloss: 0.03285 	proteinloss: 0.03098 	loss_align: 0.0008240419556386769 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [101][300/345]	Loss: 0.14777 	calorieloss: 0.02771 	massloss: 0.02447 	fatloss: 0.03485 	carbloss: 0.03086 	proteinloss: 0.02988 	loss_align: 0.0005266500520519912 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [101][345/345]	Loss: 0.14676 	calorieloss: 0.02741 	massloss: 0.02446 	fatloss: 0.03472 	carbloss: 0.03065 	proteinloss: 0.02952 	loss_align: 4.475998503039591e-05 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [101][64/64]	Loss: 0.82666 	calorieloss: 0.13785 	massloss: 0.10398 	fatloss: 0.21067 	carbloss: 0.19012 	proteinloss: 0.18404 	lr:0.0000020
+
+Epoch: [102][100/345]	Loss: 0.13418 	calorieloss: 0.02427 	massloss: 0.02221 	fatloss: 0.03435 	carbloss: 0.02563 	proteinloss: 0.02772 	loss_align: 0.0005849222070537508 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [102][200/345]	Loss: 0.13352 	calorieloss: 0.02414 	massloss: 0.02175 	fatloss: 0.03366 	carbloss: 0.02585 	proteinloss: 0.02811 	loss_align: 0.008175834082067013 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [102][300/345]	Loss: 0.13450 	calorieloss: 0.02438 	massloss: 0.02182 	fatloss: 0.03402 	carbloss: 0.02575 	proteinloss: 0.02853 	loss_align: 0.0002630390808917582 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [102][345/345]	Loss: 0.14508 	calorieloss: 0.02719 	massloss: 0.02382 	fatloss: 0.03475 	carbloss: 0.02931 	proteinloss: 0.03000 	loss_align: 0.0005420111701823771 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [102][64/64]	Loss: 0.82569 	calorieloss: 0.14013 	massloss: 0.10454 	fatloss: 0.20667 	carbloss: 0.18770 	proteinloss: 0.18666 	lr:0.0000020
+
+Epoch: [103][100/345]	Loss: 0.17173 	calorieloss: 0.03345 	massloss: 0.03054 	fatloss: 0.03747 	carbloss: 0.03795 	proteinloss: 0.03231 	loss_align: 0.000672261870931834 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [103][200/345]	Loss: 0.15654 	calorieloss: 0.02943 	massloss: 0.02734 	fatloss: 0.03584 	carbloss: 0.03283 	proteinloss: 0.03111 	loss_align: 0.0009528861264698207 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [103][300/345]	Loss: 0.14905 	calorieloss: 0.02703 	massloss: 0.02601 	fatloss: 0.03477 	carbloss: 0.03103 	proteinloss: 0.03022 	loss_align: 0.0016737811965867877 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [103][345/345]	Loss: 0.14738 	calorieloss: 0.02680 	massloss: 0.02551 	fatloss: 0.03464 	carbloss: 0.03055 	proteinloss: 0.02988 	loss_align: 0.00014344541705213487 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [103][64/64]	Loss: 0.83698 	calorieloss: 0.13968 	massloss: 0.10442 	fatloss: 0.21223 	carbloss: 0.19279 	proteinloss: 0.18787 	lr:0.0000020
+
+Epoch: [104][100/345]	Loss: 0.14365 	calorieloss: 0.02752 	massloss: 0.02249 	fatloss: 0.03703 	carbloss: 0.02761 	proteinloss: 0.02900 	loss_align: 0.0002156070404453203 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [104][200/345]	Loss: 0.14286 	calorieloss: 0.02684 	massloss: 0.02300 	fatloss: 0.03606 	carbloss: 0.02817 	proteinloss: 0.02879 	loss_align: 0.0005354639142751694 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [104][300/345]	Loss: 0.13968 	calorieloss: 0.02564 	massloss: 0.02267 	fatloss: 0.03535 	carbloss: 0.02718 	proteinloss: 0.02884 	loss_align: 0.00034617382334545255 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [104][345/345]	Loss: 0.14797 	calorieloss: 0.02789 	massloss: 0.02483 	fatloss: 0.03556 	carbloss: 0.02950 	proteinloss: 0.03019 	loss_align: 0.00014115053636487573 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [104][64/64]	Loss: 0.84107 	calorieloss: 0.14024 	massloss: 0.10682 	fatloss: 0.21278 	carbloss: 0.19165 	proteinloss: 0.18957 	lr:0.0000020
+
+Epoch: [105][100/345]	Loss: 0.13743 	calorieloss: 0.02438 	massloss: 0.02265 	fatloss: 0.03332 	carbloss: 0.02803 	proteinloss: 0.02906 	loss_align: 0.0015546984504908323 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [105][200/345]	Loss: 0.14892 	calorieloss: 0.02724 	massloss: 0.02625 	fatloss: 0.03392 	carbloss: 0.03150 	proteinloss: 0.03000 	loss_align: 0.0005497167585417628 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [105][300/345]	Loss: 0.14781 	calorieloss: 0.02696 	massloss: 0.02578 	fatloss: 0.03431 	carbloss: 0.03103 	proteinloss: 0.02971 	loss_align: 0.0006772194756194949 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [105][345/345]	Loss: 0.14639 	calorieloss: 0.02670 	massloss: 0.02558 	fatloss: 0.03422 	carbloss: 0.03032 	proteinloss: 0.02956 	loss_align: 0.00013413837586995214 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [105][64/64]	Loss: 0.84248 	calorieloss: 0.14296 	massloss: 0.10456 	fatloss: 0.21480 	carbloss: 0.19013 	proteinloss: 0.19002 	lr:0.0000020
+
+Epoch: [106][100/345]	Loss: 0.13467 	calorieloss: 0.02521 	massloss: 0.02272 	fatloss: 0.03279 	carbloss: 0.02622 	proteinloss: 0.02772 	loss_align: 0.0001908022240968421 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [106][200/345]	Loss: 0.14781 	calorieloss: 0.02882 	massloss: 0.02590 	fatloss: 0.03327 	carbloss: 0.03097 	proteinloss: 0.02885 	loss_align: 0.0006578697939403355 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [106][300/345]	Loss: 0.14608 	calorieloss: 0.02775 	massloss: 0.02501 	fatloss: 0.03413 	carbloss: 0.02993 	proteinloss: 0.02926 	loss_align: 0.001192279625684023 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [106][345/345]	Loss: 0.14814 	calorieloss: 0.02804 	massloss: 0.02505 	fatloss: 0.03512 	carbloss: 0.03047 	proteinloss: 0.02947 	loss_align: 0.0005486129666678607 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [106][64/64]	Loss: 0.83562 	calorieloss: 0.13863 	massloss: 0.10522 	fatloss: 0.21198 	carbloss: 0.19137 	proteinloss: 0.18841 	lr:0.0000021
+
+Epoch: [107][100/345]	Loss: 0.15538 	calorieloss: 0.02878 	massloss: 0.02944 	fatloss: 0.03271 	carbloss: 0.03416 	proteinloss: 0.03029 	loss_align: 0.0005345313693396747 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [107][200/345]	Loss: 0.14961 	calorieloss: 0.02823 	massloss: 0.02603 	fatloss: 0.03416 	carbloss: 0.03163 	proteinloss: 0.02956 	loss_align: 0.0009385402663610876 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [107][300/345]	Loss: 0.14497 	calorieloss: 0.02650 	massloss: 0.02545 	fatloss: 0.03415 	carbloss: 0.02977 	proteinloss: 0.02909 	loss_align: 0.0005857652868144214 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [107][345/345]	Loss: 0.14371 	calorieloss: 0.02638 	massloss: 0.02498 	fatloss: 0.03420 	carbloss: 0.02922 	proteinloss: 0.02893 	loss_align: 0.0003011960070580244 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [107][64/64]	Loss: 0.83044 	calorieloss: 0.13818 	massloss: 0.10552 	fatloss: 0.20887 	carbloss: 0.18999 	proteinloss: 0.18788 	lr:0.0000021
+
+Epoch: [108][100/345]	Loss: 0.16506 	calorieloss: 0.03187 	massloss: 0.02859 	fatloss: 0.03491 	carbloss: 0.03844 	proteinloss: 0.03125 	loss_align: 0.0002644304186105728 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [108][200/345]	Loss: 0.15655 	calorieloss: 0.02948 	massloss: 0.02682 	fatloss: 0.03523 	carbloss: 0.03457 	proteinloss: 0.03045 	loss_align: 0.0013094363966956735 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [108][300/345]	Loss: 0.14967 	calorieloss: 0.02763 	massloss: 0.02567 	fatloss: 0.03457 	carbloss: 0.03229 	proteinloss: 0.02950 	loss_align: 0.003958594053983688 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [108][345/345]	Loss: 0.14860 	calorieloss: 0.02742 	massloss: 0.02555 	fatloss: 0.03445 	carbloss: 0.03170 	proteinloss: 0.02949 	loss_align: 0.0002932123898062855 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [108][64/64]	Loss: 0.83114 	calorieloss: 0.14013 	massloss: 0.10467 	fatloss: 0.21133 	carbloss: 0.18788 	proteinloss: 0.18713 	lr:0.0000021
+
+Epoch: [109][100/345]	Loss: 0.13663 	calorieloss: 0.02378 	massloss: 0.02275 	fatloss: 0.03307 	carbloss: 0.02779 	proteinloss: 0.02924 	loss_align: 0.0007865421357564628 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [109][200/345]	Loss: 0.14113 	calorieloss: 0.02548 	massloss: 0.02309 	fatloss: 0.03521 	carbloss: 0.02788 	proteinloss: 0.02947 	loss_align: 0.0003988943644799292 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [109][300/345]	Loss: 0.14823 	calorieloss: 0.02729 	massloss: 0.02548 	fatloss: 0.03456 	carbloss: 0.03085 	proteinloss: 0.03006 	loss_align: 0.0007840354810468853 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [109][345/345]	Loss: 0.14633 	calorieloss: 0.02704 	massloss: 0.02510 	fatloss: 0.03425 	carbloss: 0.03017 	proteinloss: 0.02977 	loss_align: 0.0003523650229908526 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [109][64/64]	Loss: 0.83677 	calorieloss: 0.14068 	massloss: 0.10450 	fatloss: 0.21159 	carbloss: 0.18982 	proteinloss: 0.19019 	lr:0.0000022
+
+Epoch: [110][100/345]	Loss: 0.16391 	calorieloss: 0.03135 	massloss: 0.02906 	fatloss: 0.03427 	carbloss: 0.03494 	proteinloss: 0.03428 	loss_align: 0.004963825456798077 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [110][200/345]	Loss: 0.15345 	calorieloss: 0.02852 	massloss: 0.02613 	fatloss: 0.03589 	carbloss: 0.03089 	proteinloss: 0.03203 	loss_align: 0.0015166952507570386 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [110][300/345]	Loss: 0.14967 	calorieloss: 0.02778 	massloss: 0.02542 	fatloss: 0.03495 	carbloss: 0.03054 	proteinloss: 0.03098 	loss_align: 0.0007540819351561368 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [110][345/345]	Loss: 0.15210 	calorieloss: 0.02835 	massloss: 0.02535 	fatloss: 0.03644 	carbloss: 0.03084 	proteinloss: 0.03112 	loss_align: 0.00020997885440010577 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [110][64/64]	Loss: 0.83547 	calorieloss: 0.13922 	massloss: 0.10356 	fatloss: 0.20993 	carbloss: 0.19028 	proteinloss: 0.19247 	lr:0.0000022
+
+Epoch: [111][100/345]	Loss: 0.13229 	calorieloss: 0.02279 	massloss: 0.02277 	fatloss: 0.03186 	carbloss: 0.02673 	proteinloss: 0.02815 	loss_align: 0.000350497750332579 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [111][200/345]	Loss: 0.14736 	calorieloss: 0.02639 	massloss: 0.02646 	fatloss: 0.03258 	carbloss: 0.03211 	proteinloss: 0.02981 	loss_align: 0.00015674041060265154 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [111][300/345]	Loss: 0.14786 	calorieloss: 0.02642 	massloss: 0.02557 	fatloss: 0.03410 	carbloss: 0.03181 	proteinloss: 0.02996 	loss_align: 0.00028446706710383296 	lr:0.00000-0.00000-0.00000-0.00000
+Epoch: [111][345/345]	Loss: 0.14577 	calorieloss: 0.02599 	massloss: 0.02495 	fatloss: 0.03386 	carbloss: 0.03141 	proteinloss: 0.02956 	loss_align: 0.0005092122009955347 	lr:0.00000-0.00000-0.00000-0.00000
+Test Epoch: [111][64/64]	Loss: 0.82362 	calorieloss: 0.13866 	massloss: 0.10351 	fatloss: 0.20817 	carbloss: 0.18640 	proteinloss: 0.18688 	lr:0.0000022
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [112][100/345]	Loss: 0.16445 	calorieloss: 0.03087 	massloss: 0.02969 	fatloss: 0.03355 	carbloss: 0.03905 	proteinloss: 0.03129 	loss_align: 0.0003722583351191133 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [112][200/345]	Loss: 0.15155 	calorieloss: 0.02783 	massloss: 0.02626 	fatloss: 0.03431 	carbloss: 0.03328 	proteinloss: 0.02988 	loss_align: 0.0009899899596348405 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [112][300/345]	Loss: 0.15247 	calorieloss: 0.02876 	massloss: 0.02537 	fatloss: 0.03570 	carbloss: 0.03266 	proteinloss: 0.02998 	loss_align: 0.0005801808438263834 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [112][345/345]	Loss: 0.15058 	calorieloss: 0.02822 	massloss: 0.02500 	fatloss: 0.03548 	carbloss: 0.03181 	proteinloss: 0.03006 	loss_align: 0.0004700697027146816 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [112][64/64]	Loss: 0.83697 	calorieloss: 0.13894 	massloss: 0.10358 	fatloss: 0.21169 	carbloss: 0.19421 	proteinloss: 0.18855 	lr:0.0000023
+
+Epoch: [113][100/345]	Loss: 0.16814 	calorieloss: 0.03331 	massloss: 0.02787 	fatloss: 0.03538 	carbloss: 0.03858 	proteinloss: 0.03300 	loss_align: 0.0015303451800718904 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [113][200/345]	Loss: 0.15096 	calorieloss: 0.02879 	massloss: 0.02550 	fatloss: 0.03335 	carbloss: 0.03289 	proteinloss: 0.03042 	loss_align: 0.0005447971052490175 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [113][300/345]	Loss: 0.14743 	calorieloss: 0.02775 	massloss: 0.02487 	fatloss: 0.03373 	carbloss: 0.03079 	proteinloss: 0.03030 	loss_align: 0.0004895980819128454 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [113][345/345]	Loss: 0.14745 	calorieloss: 0.02785 	massloss: 0.02486 	fatloss: 0.03400 	carbloss: 0.03073 	proteinloss: 0.03002 	loss_align: 0.000825658265966922 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [113][64/64]	Loss: 0.83267 	calorieloss: 0.13842 	massloss: 0.10493 	fatloss: 0.21015 	carbloss: 0.18997 	proteinloss: 0.18920 	lr:0.0000023
+
+Epoch: [114][100/345]	Loss: 0.13867 	calorieloss: 0.02452 	massloss: 0.02188 	fatloss: 0.03462 	carbloss: 0.02863 	proteinloss: 0.02903 	loss_align: 0.0006552758859470487 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [114][200/345]	Loss: 0.14396 	calorieloss: 0.02608 	massloss: 0.02264 	fatloss: 0.03681 	carbloss: 0.02968 	proteinloss: 0.02876 	loss_align: 0.0004886715323664248 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [114][300/345]	Loss: 0.14954 	calorieloss: 0.02734 	massloss: 0.02448 	fatloss: 0.03605 	carbloss: 0.03158 	proteinloss: 0.03008 	loss_align: 0.002116977237164974 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [114][345/345]	Loss: 0.14966 	calorieloss: 0.02721 	massloss: 0.02476 	fatloss: 0.03594 	carbloss: 0.03187 	proteinloss: 0.02987 	loss_align: 0.00028199655935168266 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [114][64/64]	Loss: 0.83898 	calorieloss: 0.13918 	massloss: 0.10687 	fatloss: 0.21082 	carbloss: 0.19355 	proteinloss: 0.18855 	lr:0.0000024
+
+Epoch: [115][100/345]	Loss: 0.14473 	calorieloss: 0.02617 	massloss: 0.02381 	fatloss: 0.03501 	carbloss: 0.02906 	proteinloss: 0.03068 	loss_align: 0.0007759924628771842 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [115][200/345]	Loss: 0.14567 	calorieloss: 0.02586 	massloss: 0.02392 	fatloss: 0.03582 	carbloss: 0.03020 	proteinloss: 0.02986 	loss_align: 0.0003094067797064781 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [115][300/345]	Loss: 0.14494 	calorieloss: 0.02582 	massloss: 0.02407 	fatloss: 0.03571 	carbloss: 0.02904 	proteinloss: 0.03030 	loss_align: 0.0027216081507503986 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [115][345/345]	Loss: 0.14940 	calorieloss: 0.02716 	massloss: 0.02552 	fatloss: 0.03541 	carbloss: 0.03089 	proteinloss: 0.03041 	loss_align: 0.0001408335956512019 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [115][64/64]	Loss: 0.83870 	calorieloss: 0.13758 	massloss: 0.10328 	fatloss: 0.21092 	carbloss: 0.19846 	proteinloss: 0.18847 	lr:0.0000024
+
+Epoch: [116][100/345]	Loss: 0.17695 	calorieloss: 0.03411 	massloss: 0.03189 	fatloss: 0.03725 	carbloss: 0.03872 	proteinloss: 0.03498 	loss_align: 0.00082958530401811 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [116][200/345]	Loss: 0.16093 	calorieloss: 0.03056 	massloss: 0.02803 	fatloss: 0.03620 	carbloss: 0.03396 	proteinloss: 0.03218 	loss_align: 0.0013271166244521737 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [116][300/345]	Loss: 0.15448 	calorieloss: 0.02864 	massloss: 0.02641 	fatloss: 0.03632 	carbloss: 0.03122 	proteinloss: 0.03188 	loss_align: 0.00034860795130953193 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [116][345/345]	Loss: 0.15214 	calorieloss: 0.02806 	massloss: 0.02562 	fatloss: 0.03652 	carbloss: 0.03063 	proteinloss: 0.03131 	loss_align: 0.0002160768344765529 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [116][64/64]	Loss: 0.83133 	calorieloss: 0.13749 	massloss: 0.10320 	fatloss: 0.20924 	carbloss: 0.18971 	proteinloss: 0.19168 	lr:0.0000025
+
+Epoch: [117][100/345]	Loss: 0.17199 	calorieloss: 0.03339 	massloss: 0.03026 	fatloss: 0.03851 	carbloss: 0.03723 	proteinloss: 0.03260 	loss_align: 0.005780844949185848 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [117][200/345]	Loss: 0.15975 	calorieloss: 0.02995 	massloss: 0.02682 	fatloss: 0.03709 	carbloss: 0.03384 	proteinloss: 0.03205 	loss_align: 0.00030975035042501986 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [117][300/345]	Loss: 0.15594 	calorieloss: 0.02925 	massloss: 0.02620 	fatloss: 0.03640 	carbloss: 0.03261 	proteinloss: 0.03147 	loss_align: 0.00338108092546463 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [117][345/345]	Loss: 0.15570 	calorieloss: 0.02920 	massloss: 0.02595 	fatloss: 0.03666 	carbloss: 0.03218 	proteinloss: 0.03171 	loss_align: 0.00012050478107994422 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [117][64/64]	Loss: 0.84322 	calorieloss: 0.13946 	massloss: 0.10724 	fatloss: 0.21081 	carbloss: 0.18976 	proteinloss: 0.19595 	lr:0.0000026
+
+Epoch: [118][100/345]	Loss: 0.17597 	calorieloss: 0.03494 	massloss: 0.02982 	fatloss: 0.03878 	carbloss: 0.03977 	proteinloss: 0.03267 	loss_align: 0.0035940834786742926 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [118][200/345]	Loss: 0.16240 	calorieloss: 0.03073 	massloss: 0.02729 	fatloss: 0.03766 	carbloss: 0.03456 	proteinloss: 0.03216 	loss_align: 0.0035230242647230625 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [118][300/345]	Loss: 0.15775 	calorieloss: 0.02903 	massloss: 0.02615 	fatloss: 0.03772 	carbloss: 0.03332 	proteinloss: 0.03152 	loss_align: 0.0019012590637430549 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [118][345/345]	Loss: 0.15619 	calorieloss: 0.02852 	massloss: 0.02603 	fatloss: 0.03736 	carbloss: 0.03278 	proteinloss: 0.03150 	loss_align: 0.00031591119477525353 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [118][64/64]	Loss: 0.82841 	calorieloss: 0.13888 	massloss: 0.10386 	fatloss: 0.20894 	carbloss: 0.18612 	proteinloss: 0.19061 	lr:0.0000026
+
+Epoch: [119][100/345]	Loss: 0.15469 	calorieloss: 0.02739 	massloss: 0.02525 	fatloss: 0.03918 	carbloss: 0.03075 	proteinloss: 0.03212 	loss_align: 0.0016378691652789712 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [119][200/345]	Loss: 0.15923 	calorieloss: 0.02978 	massloss: 0.02722 	fatloss: 0.03593 	carbloss: 0.03413 	proteinloss: 0.03217 	loss_align: 0.0007037300965748727 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [119][300/345]	Loss: 0.15857 	calorieloss: 0.02957 	massloss: 0.02605 	fatloss: 0.03756 	carbloss: 0.03344 	proteinloss: 0.03196 	loss_align: 0.0009701447561383247 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [119][345/345]	Loss: 0.15613 	calorieloss: 0.02907 	massloss: 0.02572 	fatloss: 0.03704 	carbloss: 0.03265 	proteinloss: 0.03166 	loss_align: 0.000147989543620497 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [119][64/64]	Loss: 0.82107 	calorieloss: 0.13591 	massloss: 0.10408 	fatloss: 0.20784 	carbloss: 0.18970 	proteinloss: 0.18353 	lr:0.0000027
+
+= = =  ↑ ↑ ↑ ↑ ↑ ↑ ↑ = = = 
+======  Min  ===================
+Epoch: [120][100/345]	Loss: 0.15441 	calorieloss: 0.02806 	massloss: 0.02417 	fatloss: 0.03788 	carbloss: 0.03161 	proteinloss: 0.03270 	loss_align: 0.0004453413130249828 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [120][200/345]	Loss: 0.16099 	calorieloss: 0.03051 	massloss: 0.02677 	fatloss: 0.03589 	carbloss: 0.03478 	proteinloss: 0.03304 	loss_align: 0.0012424036394804716 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [120][300/345]	Loss: 0.15674 	calorieloss: 0.02882 	massloss: 0.02604 	fatloss: 0.03650 	carbloss: 0.03282 	proteinloss: 0.03257 	loss_align: 0.0007588489097543061 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [120][345/345]	Loss: 0.15603 	calorieloss: 0.02862 	massloss: 0.02570 	fatloss: 0.03714 	carbloss: 0.03235 	proteinloss: 0.03223 	loss_align: 0.00011538822582224384 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [120][64/64]	Loss: 0.83096 	calorieloss: 0.13779 	massloss: 0.10548 	fatloss: 0.21110 	carbloss: 0.19067 	proteinloss: 0.18592 	lr:0.0000028
+
+Epoch: [121][100/345]	Loss: 0.14935 	calorieloss: 0.02582 	massloss: 0.02591 	fatloss: 0.03549 	carbloss: 0.03114 	proteinloss: 0.03099 	loss_align: 0.0019728948827832937 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [121][200/345]	Loss: 0.15160 	calorieloss: 0.02696 	massloss: 0.02501 	fatloss: 0.03728 	carbloss: 0.03082 	proteinloss: 0.03154 	loss_align: 0.0008170261280611157 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [121][300/345]	Loss: 0.15886 	calorieloss: 0.02919 	massloss: 0.02641 	fatloss: 0.03772 	carbloss: 0.03321 	proteinloss: 0.03234 	loss_align: 0.0013954797759652138 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [121][345/345]	Loss: 0.15762 	calorieloss: 0.02912 	massloss: 0.02622 	fatloss: 0.03746 	carbloss: 0.03263 	proteinloss: 0.03219 	loss_align: 0.00013911753194406629 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [121][64/64]	Loss: 0.83407 	calorieloss: 0.13953 	massloss: 0.10701 	fatloss: 0.21068 	carbloss: 0.18751 	proteinloss: 0.18935 	lr:0.0000028
+
+Epoch: [122][100/345]	Loss: 0.15077 	calorieloss: 0.02683 	massloss: 0.02528 	fatloss: 0.03752 	carbloss: 0.02864 	proteinloss: 0.03249 	loss_align: 0.0014456507051363587 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [122][200/345]	Loss: 0.14895 	calorieloss: 0.02651 	massloss: 0.02504 	fatloss: 0.03758 	carbloss: 0.02893 	proteinloss: 0.03090 	loss_align: 0.00041834753938019276 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [122][300/345]	Loss: 0.15400 	calorieloss: 0.02739 	massloss: 0.02576 	fatloss: 0.03796 	carbloss: 0.03065 	proteinloss: 0.03224 	loss_align: 0.0018475735560059547 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [122][345/345]	Loss: 0.15965 	calorieloss: 0.02881 	massloss: 0.02731 	fatloss: 0.03740 	carbloss: 0.03315 	proteinloss: 0.03299 	loss_align: 0.0003995342704001814 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [122][64/64]	Loss: 0.82238 	calorieloss: 0.13524 	massloss: 0.10551 	fatloss: 0.20504 	carbloss: 0.18826 	proteinloss: 0.18833 	lr:0.0000029
+
+Epoch: [123][100/345]	Loss: 0.15354 	calorieloss: 0.02681 	massloss: 0.02502 	fatloss: 0.03772 	carbloss: 0.03138 	proteinloss: 0.03261 	loss_align: 0.0016300060087814927 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [123][200/345]	Loss: 0.15497 	calorieloss: 0.02753 	massloss: 0.02565 	fatloss: 0.03802 	carbloss: 0.03169 	proteinloss: 0.03210 	loss_align: 0.0031865928322076797 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [123][300/345]	Loss: 0.15430 	calorieloss: 0.02705 	massloss: 0.02543 	fatloss: 0.03820 	carbloss: 0.03136 	proteinloss: 0.03225 	loss_align: 0.0009403178701177239 	lr:0.00000-0.00000-0.00001-0.00001
+Epoch: [123][345/345]	Loss: 0.16355 	calorieloss: 0.02993 	massloss: 0.02721 	fatloss: 0.03869 	carbloss: 0.03416 	proteinloss: 0.03357 	loss_align: 9.828062320593745e-05 	lr:0.00000-0.00000-0.00001-0.00001
+Test Epoch: [123][64/64]	Loss: 0.83661 	calorieloss: 0.14190 	massloss: 0.10276 	fatloss: 0.21439 	carbloss: 0.18850 	proteinloss: 0.18906 	lr:0.0000030
+
+Epoch: [124][100/345]	Loss: 0.16526 	calorieloss: 0.03004 	massloss: 0.02545 	fatloss: 0.04164 	carbloss: 0.03386 	proteinloss: 0.03427 	loss_align: 0.0007092169253155589 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [124][200/345]	Loss: 0.16128 	calorieloss: 0.02889 	massloss: 0.02656 	fatloss: 0.03960 	carbloss: 0.03358 	proteinloss: 0.03264 	loss_align: 0.0021399876568466425 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [124][300/345]	Loss: 0.16694 	calorieloss: 0.03053 	massloss: 0.02834 	fatloss: 0.03914 	carbloss: 0.03565 	proteinloss: 0.03327 	loss_align: 0.0005510820774361491 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [124][345/345]	Loss: 0.16642 	calorieloss: 0.03042 	massloss: 0.02799 	fatloss: 0.03959 	carbloss: 0.03508 	proteinloss: 0.03334 	loss_align: 0.0029431141447275877 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [124][64/64]	Loss: 0.83848 	calorieloss: 0.13938 	massloss: 0.10466 	fatloss: 0.21093 	carbloss: 0.19160 	proteinloss: 0.19191 	lr:0.0000031
+
+Epoch: [125][100/345]	Loss: 0.16431 	calorieloss: 0.03081 	massloss: 0.02588 	fatloss: 0.04263 	carbloss: 0.03198 	proteinloss: 0.03302 	loss_align: 0.000834814680274576 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [125][200/345]	Loss: 0.17710 	calorieloss: 0.03385 	massloss: 0.03021 	fatloss: 0.04068 	carbloss: 0.03663 	proteinloss: 0.03574 	loss_align: 0.001083845505490899 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [125][300/345]	Loss: 0.16909 	calorieloss: 0.03158 	massloss: 0.02855 	fatloss: 0.04023 	carbloss: 0.03398 	proteinloss: 0.03474 	loss_align: 0.0005494731012731791 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [125][345/345]	Loss: 0.16736 	calorieloss: 0.03108 	massloss: 0.02825 	fatloss: 0.03991 	carbloss: 0.03421 	proteinloss: 0.03392 	loss_align: 0.0011469662422314286 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [125][64/64]	Loss: 0.83878 	calorieloss: 0.14394 	massloss: 0.10480 	fatloss: 0.20906 	carbloss: 0.19325 	proteinloss: 0.18774 	lr:0.0000032
+
+Epoch: [126][100/345]	Loss: 0.19148 	calorieloss: 0.03831 	massloss: 0.03308 	fatloss: 0.03931 	carbloss: 0.04179 	proteinloss: 0.03899 	loss_align: 0.0009397866087965667 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [126][200/345]	Loss: 0.17830 	calorieloss: 0.03406 	massloss: 0.03005 	fatloss: 0.04063 	carbloss: 0.03651 	proteinloss: 0.03705 	loss_align: 0.0009228110429830849 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [126][300/345]	Loss: 0.17207 	calorieloss: 0.03219 	massloss: 0.02897 	fatloss: 0.04010 	carbloss: 0.03523 	proteinloss: 0.03558 	loss_align: 0.0014910000609233975 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [126][345/345]	Loss: 0.17282 	calorieloss: 0.03234 	massloss: 0.02864 	fatloss: 0.04044 	carbloss: 0.03591 	proteinloss: 0.03550 	loss_align: 0.0002482007839716971 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [126][64/64]	Loss: 0.84549 	calorieloss: 0.14335 	massloss: 0.10505 	fatloss: 0.21599 	carbloss: 0.19265 	proteinloss: 0.18845 	lr:0.0000033
+
+Epoch: [127][100/345]	Loss: 0.16207 	calorieloss: 0.02845 	massloss: 0.02686 	fatloss: 0.04047 	carbloss: 0.03313 	proteinloss: 0.03315 	loss_align: 0.0010433262214064598 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [127][200/345]	Loss: 0.16431 	calorieloss: 0.02955 	massloss: 0.02662 	fatloss: 0.04112 	carbloss: 0.03356 	proteinloss: 0.03345 	loss_align: 0.0006738660740666091 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [127][300/345]	Loss: 0.16787 	calorieloss: 0.03061 	massloss: 0.02720 	fatloss: 0.04232 	carbloss: 0.03344 	proteinloss: 0.03430 	loss_align: 0.01019686833024025 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [127][345/345]	Loss: 0.17650 	calorieloss: 0.03279 	massloss: 0.02953 	fatloss: 0.04248 	carbloss: 0.03619 	proteinloss: 0.03551 	loss_align: 0.0006088213995099068 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [127][64/64]	Loss: 0.84797 	calorieloss: 0.14268 	massloss: 0.10718 	fatloss: 0.21846 	carbloss: 0.18803 	proteinloss: 0.19161 	lr:0.0000034
+
+Epoch: [128][100/345]	Loss: 0.16561 	calorieloss: 0.02995 	massloss: 0.02775 	fatloss: 0.03904 	carbloss: 0.03376 	proteinloss: 0.03511 	loss_align: 0.0010276547400280833 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [128][200/345]	Loss: 0.17113 	calorieloss: 0.03192 	massloss: 0.02862 	fatloss: 0.04138 	carbloss: 0.03457 	proteinloss: 0.03464 	loss_align: 0.00046958422171883285 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [128][300/345]	Loss: 0.17032 	calorieloss: 0.03154 	massloss: 0.02765 	fatloss: 0.04141 	carbloss: 0.03443 	proteinloss: 0.03528 	loss_align: 0.0015342312399297953 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [128][345/345]	Loss: 0.17783 	calorieloss: 0.03309 	massloss: 0.02929 	fatloss: 0.04248 	carbloss: 0.03685 	proteinloss: 0.03612 	loss_align: 6.805566226830706e-05 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [128][64/64]	Loss: 0.86450 	calorieloss: 0.14460 	massloss: 0.10899 	fatloss: 0.22454 	carbloss: 0.18984 	proteinloss: 0.19654 	lr:0.0000035
+
+Epoch: [129][100/345]	Loss: 0.18263 	calorieloss: 0.03266 	massloss: 0.03178 	fatloss: 0.04227 	carbloss: 0.03508 	proteinloss: 0.04085 	loss_align: 0.003425056580454111 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [129][200/345]	Loss: 0.17506 	calorieloss: 0.03087 	massloss: 0.02925 	fatloss: 0.04158 	carbloss: 0.03442 	proteinloss: 0.03894 	loss_align: 0.00048782574594952166 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [129][300/345]	Loss: 0.18453 	calorieloss: 0.03409 	massloss: 0.03021 	fatloss: 0.04356 	carbloss: 0.03795 	proteinloss: 0.03873 	loss_align: 0.0005922522977925837 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [129][345/345]	Loss: 0.18164 	calorieloss: 0.03321 	massloss: 0.02980 	fatloss: 0.04296 	carbloss: 0.03746 	proteinloss: 0.03821 	loss_align: 0.0002148345811292529 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [129][64/64]	Loss: 0.84147 	calorieloss: 0.13809 	massloss: 0.10829 	fatloss: 0.21128 	carbloss: 0.18888 	proteinloss: 0.19494 	lr:0.0000035
+
+Epoch: [130][100/345]	Loss: 0.16809 	calorieloss: 0.03073 	massloss: 0.02633 	fatloss: 0.04201 	carbloss: 0.03422 	proteinloss: 0.03480 	loss_align: 0.0013516381150111556 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [130][200/345]	Loss: 0.18131 	calorieloss: 0.03356 	massloss: 0.03049 	fatloss: 0.04147 	carbloss: 0.03855 	proteinloss: 0.03724 	loss_align: 0.0006969586829654872 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [130][300/345]	Loss: 0.18521 	calorieloss: 0.03430 	massloss: 0.02989 	fatloss: 0.04359 	carbloss: 0.03939 	proteinloss: 0.03804 	loss_align: 0.000680450932122767 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [130][345/345]	Loss: 0.18198 	calorieloss: 0.03360 	massloss: 0.02949 	fatloss: 0.04307 	carbloss: 0.03827 	proteinloss: 0.03754 	loss_align: 0.000881832093000412 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [130][64/64]	Loss: 0.83894 	calorieloss: 0.14218 	massloss: 0.10499 	fatloss: 0.21508 	carbloss: 0.18670 	proteinloss: 0.19000 	lr:0.0000036
+
+Epoch: [131][100/345]	Loss: 0.18313 	calorieloss: 0.03375 	massloss: 0.02784 	fatloss: 0.04628 	carbloss: 0.03621 	proteinloss: 0.03906 	loss_align: 0.001237585674971342 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [131][200/345]	Loss: 0.18379 	calorieloss: 0.03436 	massloss: 0.03107 	fatloss: 0.04379 	carbloss: 0.03786 	proteinloss: 0.03672 	loss_align: 0.0002929721667896956 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [131][300/345]	Loss: 0.18689 	calorieloss: 0.03447 	massloss: 0.03083 	fatloss: 0.04473 	carbloss: 0.03866 	proteinloss: 0.03819 	loss_align: 0.0008213240071199834 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [131][345/345]	Loss: 0.18750 	calorieloss: 0.03421 	massloss: 0.03128 	fatloss: 0.04515 	carbloss: 0.03876 	proteinloss: 0.03810 	loss_align: 0.0009476666455157101 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [131][64/64]	Loss: 0.83943 	calorieloss: 0.13966 	massloss: 0.10544 	fatloss: 0.21631 	carbloss: 0.18835 	proteinloss: 0.18968 	lr:0.0000038
+
+Epoch: [132][100/345]	Loss: 0.21602 	calorieloss: 0.04164 	massloss: 0.03645 	fatloss: 0.04971 	carbloss: 0.04851 	proteinloss: 0.03971 	loss_align: 0.000763443938922137 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [132][200/345]	Loss: 0.19614 	calorieloss: 0.03636 	massloss: 0.03211 	fatloss: 0.04666 	carbloss: 0.04252 	proteinloss: 0.03850 	loss_align: 0.0027052804362028837 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [132][300/345]	Loss: 0.19090 	calorieloss: 0.03512 	massloss: 0.03105 	fatloss: 0.04623 	carbloss: 0.04026 	proteinloss: 0.03824 	loss_align: 0.0024089794605970383 	lr:0.00000-0.00000-0.00002-0.00002
+Epoch: [132][345/345]	Loss: 0.18923 	calorieloss: 0.03472 	massloss: 0.03080 	fatloss: 0.04572 	carbloss: 0.04014 	proteinloss: 0.03785 	loss_align: 0.00029755636933259666 	lr:0.00000-0.00000-0.00002-0.00002
+Test Epoch: [132][64/64]	Loss: 0.84487 	calorieloss: 0.14006 	massloss: 0.10801 	fatloss: 0.21568 	carbloss: 0.19089 	proteinloss: 0.19024 	lr:0.0000039
+
+Epoch: [133][100/345]	Loss: 0.18375 	calorieloss: 0.03351 	massloss: 0.03279 	fatloss: 0.04242 	carbloss: 0.03641 	proteinloss: 0.03862 	loss_align: 0.010630435310304165 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [133][200/345]	Loss: 0.17846 	calorieloss: 0.03215 	massloss: 0.03039 	fatloss: 0.04240 	carbloss: 0.03583 	proteinloss: 0.03769 	loss_align: 0.0004440191842149943 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [133][300/345]	Loss: 0.18878 	calorieloss: 0.03438 	massloss: 0.03173 	fatloss: 0.04400 	carbloss: 0.03973 	proteinloss: 0.03894 	loss_align: 0.0005361913936212659 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [133][345/345]	Loss: 0.19025 	calorieloss: 0.03451 	massloss: 0.03202 	fatloss: 0.04512 	carbloss: 0.03959 	proteinloss: 0.03901 	loss_align: 0.0004189646278973669 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [133][64/64]	Loss: 0.84892 	calorieloss: 0.14230 	massloss: 0.10332 	fatloss: 0.21469 	carbloss: 0.19352 	proteinloss: 0.19509 	lr:0.0000040
+
+Epoch: [134][100/345]	Loss: 0.20762 	calorieloss: 0.04281 	massloss: 0.03539 	fatloss: 0.04284 	carbloss: 0.04639 	proteinloss: 0.04019 	loss_align: 0.0004385074716992676 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [134][200/345]	Loss: 0.19320 	calorieloss: 0.03719 	massloss: 0.03241 	fatloss: 0.04383 	carbloss: 0.04060 	proteinloss: 0.03917 	loss_align: 0.0004339815641287714 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [134][300/345]	Loss: 0.19506 	calorieloss: 0.03602 	massloss: 0.03298 	fatloss: 0.04569 	carbloss: 0.03957 	proteinloss: 0.04080 	loss_align: 0.01598377525806427 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [134][345/345]	Loss: 0.19261 	calorieloss: 0.03571 	massloss: 0.03227 	fatloss: 0.04547 	carbloss: 0.03918 	proteinloss: 0.03998 	loss_align: 0.00013414690329227597 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [134][64/64]	Loss: 0.85138 	calorieloss: 0.14109 	massloss: 0.10615 	fatloss: 0.21773 	carbloss: 0.19146 	proteinloss: 0.19495 	lr:0.0000041
+
+Epoch: [135][100/345]	Loss: 0.18106 	calorieloss: 0.03272 	massloss: 0.02987 	fatloss: 0.04259 	carbloss: 0.03889 	proteinloss: 0.03698 	loss_align: 0.0006093597039580345 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [135][200/345]	Loss: 0.18529 	calorieloss: 0.03304 	massloss: 0.02979 	fatloss: 0.04440 	carbloss: 0.03932 	proteinloss: 0.03874 	loss_align: 0.0011995806125923991 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [135][300/345]	Loss: 0.19328 	calorieloss: 0.03482 	massloss: 0.03237 	fatloss: 0.04419 	carbloss: 0.04203 	proteinloss: 0.03987 	loss_align: 0.004839214961975813 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [135][345/345]	Loss: 0.19134 	calorieloss: 0.03443 	massloss: 0.03210 	fatloss: 0.04408 	carbloss: 0.04112 	proteinloss: 0.03961 	loss_align: 0.0002864025882445276 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [135][64/64]	Loss: 0.85996 	calorieloss: 0.14377 	massloss: 0.10873 	fatloss: 0.21831 	carbloss: 0.19268 	proteinloss: 0.19647 	lr:0.0000042
+
+Epoch: [136][100/345]	Loss: 0.17609 	calorieloss: 0.02942 	massloss: 0.02985 	fatloss: 0.04292 	carbloss: 0.03853 	proteinloss: 0.03537 	loss_align: 0.0008607371710240841 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [136][200/345]	Loss: 0.19886 	calorieloss: 0.03514 	massloss: 0.03396 	fatloss: 0.04539 	carbloss: 0.04351 	proteinloss: 0.04086 	loss_align: 0.0010300062131136656 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [136][300/345]	Loss: 0.19577 	calorieloss: 0.03464 	massloss: 0.03334 	fatloss: 0.04542 	carbloss: 0.04229 	proteinloss: 0.04007 	loss_align: 0.0009085602941922843 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [136][345/345]	Loss: 0.19923 	calorieloss: 0.03524 	massloss: 0.03336 	fatloss: 0.04715 	carbloss: 0.04331 	proteinloss: 0.04016 	loss_align: 0.0004800453025382012 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [136][64/64]	Loss: 0.86302 	calorieloss: 0.14066 	massloss: 0.10824 	fatloss: 0.21803 	carbloss: 0.20326 	proteinloss: 0.19284 	lr:0.0000043
+
+Epoch: [137][100/345]	Loss: 0.19501 	calorieloss: 0.03419 	massloss: 0.03058 	fatloss: 0.04749 	carbloss: 0.04379 	proteinloss: 0.03896 	loss_align: 0.0006948636146262288 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [137][200/345]	Loss: 0.19298 	calorieloss: 0.03331 	massloss: 0.03054 	fatloss: 0.04822 	carbloss: 0.04110 	proteinloss: 0.03982 	loss_align: 0.0004179386014584452 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [137][300/345]	Loss: 0.19212 	calorieloss: 0.03344 	massloss: 0.03084 	fatloss: 0.04743 	carbloss: 0.04058 	proteinloss: 0.03983 	loss_align: 0.00047029118286445737 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [137][345/345]	Loss: 0.20134 	calorieloss: 0.03573 	massloss: 0.03316 	fatloss: 0.04810 	carbloss: 0.04398 	proteinloss: 0.04036 	loss_align: 0.0002163311728509143 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [137][64/64]	Loss: 0.86359 	calorieloss: 0.14459 	massloss: 0.10840 	fatloss: 0.21757 	carbloss: 0.19797 	proteinloss: 0.19507 	lr:0.0000044
+
+Epoch: [138][100/345]	Loss: 0.19614 	calorieloss: 0.03568 	massloss: 0.03181 	fatloss: 0.04837 	carbloss: 0.03814 	proteinloss: 0.04215 	loss_align: 0.0005551374051719904 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [138][200/345]	Loss: 0.20848 	calorieloss: 0.03863 	massloss: 0.03538 	fatloss: 0.04826 	carbloss: 0.04476 	proteinloss: 0.04146 	loss_align: 0.00047076723421923816 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [138][300/345]	Loss: 0.20203 	calorieloss: 0.03724 	massloss: 0.03376 	fatloss: 0.04759 	carbloss: 0.04243 	proteinloss: 0.04100 	loss_align: 0.0006063883192837238 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [138][345/345]	Loss: 0.19948 	calorieloss: 0.03663 	massloss: 0.03332 	fatloss: 0.04696 	carbloss: 0.04183 	proteinloss: 0.04073 	loss_align: 0.0003912811225745827 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [138][64/64]	Loss: 0.84299 	calorieloss: 0.13985 	massloss: 0.10548 	fatloss: 0.21308 	carbloss: 0.18900 	proteinloss: 0.19559 	lr:0.0000045
+
+Epoch: [139][100/345]	Loss: 0.18884 	calorieloss: 0.03277 	massloss: 0.03230 	fatloss: 0.04279 	carbloss: 0.04092 	proteinloss: 0.04007 	loss_align: 0.0011240458115935326 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [139][200/345]	Loss: 0.20008 	calorieloss: 0.03612 	massloss: 0.03492 	fatloss: 0.04360 	carbloss: 0.04512 	proteinloss: 0.04033 	loss_align: 0.00025302075664512813 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [139][300/345]	Loss: 0.19687 	calorieloss: 0.03535 	massloss: 0.03339 	fatloss: 0.04535 	carbloss: 0.04305 	proteinloss: 0.03973 	loss_align: 0.0004324857145547867 	lr:0.00000-0.00000-0.00003-0.00003
+Epoch: [139][345/345]	Loss: 0.19911 	calorieloss: 0.03599 	massloss: 0.03353 	fatloss: 0.04656 	carbloss: 0.04346 	proteinloss: 0.03957 	loss_align: 0.00028194577316753566 	lr:0.00000-0.00000-0.00003-0.00003
+Test Epoch: [139][64/64]	Loss: 0.84506 	calorieloss: 0.14111 	massloss: 0.10611 	fatloss: 0.21880 	carbloss: 0.18681 	proteinloss: 0.19223 	lr:0.0000046
+
+Epoch: [140][100/345]	Loss: 0.19909 	calorieloss: 0.03462 	massloss: 0.03172 	fatloss: 0.04994 	carbloss: 0.04176 	proteinloss: 0.04106 	loss_align: 0.00017292649135924876 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [140][200/345]	Loss: 0.21882 	calorieloss: 0.03862 	massloss: 0.03536 	fatloss: 0.05278 	carbloss: 0.04868 	proteinloss: 0.04338 	loss_align: 0.0005232847179286182 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [140][300/345]	Loss: 0.21505 	calorieloss: 0.03764 	massloss: 0.03471 	fatloss: 0.05164 	carbloss: 0.04777 	proteinloss: 0.04330 	loss_align: 0.0002726578095462173 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [140][345/345]	Loss: 0.21591 	calorieloss: 0.03814 	massloss: 0.03418 	fatloss: 0.05198 	carbloss: 0.04818 	proteinloss: 0.04343 	loss_align: 0.0002437895891489461 	lr:0.00000-0.00000-0.00004-0.00004
+Test Epoch: [140][64/64]	Loss: 0.83828 	calorieloss: 0.14363 	massloss: 0.10659 	fatloss: 0.21400 	carbloss: 0.18204 	proteinloss: 0.19203 	lr:0.0000048
+
+Epoch: [141][100/345]	Loss: 0.20157 	calorieloss: 0.03552 	massloss: 0.03262 	fatloss: 0.04742 	carbloss: 0.04205 	proteinloss: 0.04396 	loss_align: 0.0004458052571862936 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [141][200/345]	Loss: 0.20541 	calorieloss: 0.03631 	massloss: 0.03285 	fatloss: 0.05008 	carbloss: 0.04229 	proteinloss: 0.04387 	loss_align: 0.0012218774063512683 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [141][300/345]	Loss: 0.20847 	calorieloss: 0.03733 	massloss: 0.03302 	fatloss: 0.05066 	carbloss: 0.04312 	proteinloss: 0.04434 	loss_align: 0.0006726300925947726 	lr:0.00000-0.00000-0.00004-0.00004
+Epoch: [141][345/345]	Loss: 0.21595 	calorieloss: 0.03920 	massloss: 0.03481 	fatloss: 0.05118 	carbloss: 0.04549 	proteinloss: 0.04526 	loss_align: 0.004991534166038036 	lr:0.00000-0.00000-0.00004-0.00004
+Test Epoch: [141][64/64]	Loss: 0.83527 	calorieloss: 0.13987 	massloss: 0.10975 	fatloss: 0.21250 	carbloss: 0.19161 	proteinloss: 0.18155 	lr:0.0000049
+
+Epoch: [142][100/345]	Loss: 0.21034 	calorieloss: 0.03855 	massloss: 0.03307 	fatloss: 0.05380 	carbloss: 0.04168 	proteinloss: 0.04323 	loss_align: 0.0016162231331691146 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [142][200/345]	Loss: 0.22523 	calorieloss: 0.04159 	massloss: 0.03659 	fatloss: 0.05378 	carbloss: 0.04507 	proteinloss: 0.04820 	loss_align: 0.0012315711937844753 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [142][300/345]	Loss: 0.22479 	calorieloss: 0.04027 	massloss: 0.03600 	fatloss: 0.05408 	carbloss: 0.04660 	proteinloss: 0.04784 	loss_align: 0.00017328604008071125 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [142][345/345]	Loss: 0.22344 	calorieloss: 0.03993 	massloss: 0.03598 	fatloss: 0.05370 	carbloss: 0.04621 	proteinloss: 0.04762 	loss_align: 0.0006607792456634343 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [142][64/64]	Loss: 0.86160 	calorieloss: 0.14366 	massloss: 0.10730 	fatloss: 0.21575 	carbloss: 0.19591 	proteinloss: 0.19897 	lr:0.0000050
+
+Epoch: [143][100/345]	Loss: 0.22853 	calorieloss: 0.04125 	massloss: 0.03599 	fatloss: 0.05589 	carbloss: 0.04679 	proteinloss: 0.04861 	loss_align: 0.0008005273411981761 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [143][200/345]	Loss: 0.22331 	calorieloss: 0.03974 	massloss: 0.03564 	fatloss: 0.05310 	carbloss: 0.04629 	proteinloss: 0.04854 	loss_align: 0.0003898795403074473 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [143][300/345]	Loss: 0.22355 	calorieloss: 0.04024 	massloss: 0.03661 	fatloss: 0.05191 	carbloss: 0.04679 	proteinloss: 0.04800 	loss_align: 0.0006021460285410285 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [143][345/345]	Loss: 0.22187 	calorieloss: 0.03997 	massloss: 0.03628 	fatloss: 0.05186 	carbloss: 0.04660 	proteinloss: 0.04716 	loss_align: 0.00013740941358264536 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [143][64/64]	Loss: 0.88529 	calorieloss: 0.14248 	massloss: 0.11478 	fatloss: 0.22098 	carbloss: 0.20665 	proteinloss: 0.20041 	lr:0.0000051
+
+Epoch: [144][100/345]	Loss: 0.20759 	calorieloss: 0.03504 	massloss: 0.03304 	fatloss: 0.05149 	carbloss: 0.04075 	proteinloss: 0.04727 	loss_align: 0.007166351657360792 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [144][200/345]	Loss: 0.22468 	calorieloss: 0.03918 	massloss: 0.03658 	fatloss: 0.05255 	carbloss: 0.04800 	proteinloss: 0.04837 	loss_align: 0.0010058678453788161 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [144][300/345]	Loss: 0.21826 	calorieloss: 0.03807 	massloss: 0.03499 	fatloss: 0.05241 	carbloss: 0.04612 	proteinloss: 0.04666 	loss_align: 0.0003113792045041919 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [144][345/345]	Loss: 0.21572 	calorieloss: 0.03765 	massloss: 0.03468 	fatloss: 0.05211 	carbloss: 0.04556 	proteinloss: 0.04572 	loss_align: 0.00042768529965542257 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [144][64/64]	Loss: 0.85015 	calorieloss: 0.14203 	massloss: 0.10561 	fatloss: 0.21615 	carbloss: 0.19206 	proteinloss: 0.19431 	lr:0.0000053
+
+Epoch: [145][100/345]	Loss: 0.21337 	calorieloss: 0.03884 	massloss: 0.03432 	fatloss: 0.05234 	carbloss: 0.04177 	proteinloss: 0.04611 	loss_align: 0.0006052343524061143 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [145][200/345]	Loss: 0.24378 	calorieloss: 0.04552 	massloss: 0.03984 	fatloss: 0.05844 	carbloss: 0.04967 	proteinloss: 0.05031 	loss_align: 0.0019464256474748254 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [145][300/345]	Loss: 0.23756 	calorieloss: 0.04333 	massloss: 0.03870 	fatloss: 0.05796 	carbloss: 0.04855 	proteinloss: 0.04902 	loss_align: 0.00045087715261615813 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [145][345/345]	Loss: 0.23893 	calorieloss: 0.04330 	massloss: 0.03878 	fatloss: 0.05797 	carbloss: 0.04922 	proteinloss: 0.04966 	loss_align: 0.00010892262071138248 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [145][64/64]	Loss: 0.87167 	calorieloss: 0.14800 	massloss: 0.11257 	fatloss: 0.22516 	carbloss: 0.19854 	proteinloss: 0.18740 	lr:0.0000054
+
+Epoch: [146][100/345]	Loss: 0.21843 	calorieloss: 0.03830 	massloss: 0.03329 	fatloss: 0.05640 	carbloss: 0.04862 	proteinloss: 0.04182 	loss_align: 0.0014124884037300944 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [146][200/345]	Loss: 0.21480 	calorieloss: 0.03718 	massloss: 0.03377 	fatloss: 0.05504 	carbloss: 0.04561 	proteinloss: 0.04320 	loss_align: 0.0008365609683096409 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [146][300/345]	Loss: 0.22650 	calorieloss: 0.04028 	massloss: 0.03564 	fatloss: 0.05687 	carbloss: 0.04828 	proteinloss: 0.04544 	loss_align: 0.0022389483638107777 	lr:0.00001-0.00001-0.00004-0.00004
+Epoch: [146][345/345]	Loss: 0.22552 	calorieloss: 0.03964 	massloss: 0.03578 	fatloss: 0.05636 	carbloss: 0.04806 	proteinloss: 0.04568 	loss_align: 0.00040680798701941967 	lr:0.00001-0.00001-0.00004-0.00004
+Test Epoch: [146][64/64]	Loss: 0.86122 	calorieloss: 0.14643 	massloss: 0.11011 	fatloss: 0.21620 	carbloss: 0.19640 	proteinloss: 0.19208 	lr:0.0000055
+
+Epoch: [147][100/345]	Loss: 0.21332 	calorieloss: 0.03783 	massloss: 0.03353 	fatloss: 0.05328 	carbloss: 0.04455 	proteinloss: 0.04413 	loss_align: 0.00030222671921364963 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [147][200/345]	Loss: 0.21495 	calorieloss: 0.03823 	massloss: 0.03397 	fatloss: 0.05362 	carbloss: 0.04464 	proteinloss: 0.04448 	loss_align: 0.0011049709282815456 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [147][300/345]	Loss: 0.22540 	calorieloss: 0.04043 	massloss: 0.03559 	fatloss: 0.05449 	carbloss: 0.04886 	proteinloss: 0.04603 	loss_align: 0.0008294498547911644 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [147][345/345]	Loss: 0.22921 	calorieloss: 0.04092 	massloss: 0.03586 	fatloss: 0.05559 	carbloss: 0.05031 	proteinloss: 0.04654 	loss_align: 0.00020390904683154076 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [147][64/64]	Loss: 0.94174 	calorieloss: 0.16145 	massloss: 0.12346 	fatloss: 0.26268 	carbloss: 0.19528 	proteinloss: 0.19887 	lr:0.0000056
+
+Epoch: [148][100/345]	Loss: 0.26442 	calorieloss: 0.04534 	massloss: 0.04057 	fatloss: 0.07079 	carbloss: 0.05556 	proteinloss: 0.05215 	loss_align: 0.002559727756306529 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [148][200/345]	Loss: 0.24995 	calorieloss: 0.04348 	massloss: 0.03890 	fatloss: 0.06475 	carbloss: 0.05323 	proteinloss: 0.04958 	loss_align: 0.0016003461787477136 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [148][300/345]	Loss: 0.24284 	calorieloss: 0.04290 	massloss: 0.03790 	fatloss: 0.06268 	carbloss: 0.05132 	proteinloss: 0.04803 	loss_align: 0.0005550768692046404 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [148][345/345]	Loss: 0.24630 	calorieloss: 0.04385 	massloss: 0.03917 	fatloss: 0.06170 	carbloss: 0.05354 	proteinloss: 0.04804 	loss_align: 0.0010738008422777057 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [148][64/64]	Loss: 0.84757 	calorieloss: 0.14068 	massloss: 0.10563 	fatloss: 0.21375 	carbloss: 0.19259 	proteinloss: 0.19493 	lr:0.0000057
+
+Epoch: [149][100/345]	Loss: 0.22978 	calorieloss: 0.03954 	massloss: 0.03875 	fatloss: 0.05408 	carbloss: 0.05045 	proteinloss: 0.04696 	loss_align: 0.001507537323050201 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [149][200/345]	Loss: 0.22339 	calorieloss: 0.03860 	massloss: 0.03723 	fatloss: 0.05417 	carbloss: 0.04806 	proteinloss: 0.04534 	loss_align: 0.0004243883304297924 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [149][300/345]	Loss: 0.23568 	calorieloss: 0.04222 	massloss: 0.03991 	fatloss: 0.05533 	carbloss: 0.05198 	proteinloss: 0.04624 	loss_align: 0.0021955722477287054 	lr:0.00001-0.00001-0.00005-0.00005
+Epoch: [149][345/345]	Loss: 0.23443 	calorieloss: 0.04160 	massloss: 0.03942 	fatloss: 0.05530 	carbloss: 0.05177 	proteinloss: 0.04633 	loss_align: 0.0001327864738414064 	lr:0.00001-0.00001-0.00005-0.00005
+Test Epoch: [149][64/64]	Loss: 0.91532 	calorieloss: 0.15365 	massloss: 0.11677 	fatloss: 0.23676 	carbloss: 0.20536 	proteinloss: 0.20278 	lr:0.0000059
+
+======  Min  ===================
+====  epoch ::: 119 ===================
+======  Min  ===================
