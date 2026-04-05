@@ -30,7 +30,6 @@ Dongjian Yu¹, Weiqing Min², Qian Jiang¹, Xing Lin¹, Xin Jin¹, Shuqiang Jian
 
 </p>
 
-### Please feel free to contact me at yudongjian@stu.ynu.edu.cn if you have any questions.
 
 
 ## Prerequisite Step 1
@@ -44,13 +43,17 @@ After downloading, place the files in the `pth/` folder of the project (create t
 
 ## Prerequisites Step 2
 
-Generate predicted depth maps.
+Generate predicted depth maps.  Our project have a run.py for your reference.
 [use Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2)
-
-
 
 
 ## 🚧 Train
 ```bash
 train_nutrition.py --b 8 --log ./logs/test3
 ```
+
+We have also saved the trained weights, but the files are relatively large. If needed, we can send them to you by email.
+
+### Please feel free to contact me at yudongjian@stu.ynu.edu.cn if you have any questions.
+
+
