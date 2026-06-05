@@ -55,7 +55,7 @@ train_nutrition.py --b 8 --log ./logs/test3
 ```bash
 python test.py --ckpt ./saved/logs/test2/ckpt_best.pth
 ```
-[Download link for the trained weights.](https://drive.google.com/file/d/1aeRV_Ag2m4YlYlWEYVpZHcVRlDoaxLEW/view?usp=sharing)
+[Download link for the trained weights.  (Nutrition5K)](https://drive.google.com/file/d/1aeRV_Ag2m4YlYlWEYVpZHcVRlDoaxLEW/view?usp=sharing)
 
 ### Please feel free to contact me at yudongjian@stu.ynu.edu.cn if you have any questions.
 
