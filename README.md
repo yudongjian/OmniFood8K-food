@@ -56,6 +56,8 @@ train_nutrition.py --b 8 --log ./logs/test3
 python test.py --ckpt ./saved/logs/test2/ckpt_best.pth
 ```
 [Download link for the trained weights.  (Nutrition5K)](https://drive.google.com/file/d/1aeRV_Ag2m4YlYlWEYVpZHcVRlDoaxLEW/view?usp=sharing)
+[Download link for the trained weights.  (OmniFood8K)](https://huggingface.co/dongjianjjjj/OmniFood8k/tree/main)
+
 
 ### Please feel free to contact me at yudongjian4@163.com if you have any questions.
 
